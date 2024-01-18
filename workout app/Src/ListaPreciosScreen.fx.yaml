@@ -106,43 +106,73 @@ ListaPreciosScreen As screen:
                         Y: =(Parent.Height - Self.Height) / 2
                         ZIndex: =4
 
-    conBuscar As groupContainer.manualLayoutContainer:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        BorderThickness: =2
-        DropShadow: =DropShadow.None
-        Height: =70
-        RadiusBottomLeft: =100
-        RadiusBottomRight: =100
-        RadiusTopLeft: =100
-        RadiusTopRight: =100
-        Width: =1326
-        X: =13
-        Y: =14
-        ZIndex: =4
+    Container2 As groupContainer.horizontalAutoLayoutContainer:
+        Height: =108
+        LayoutMode: =LayoutMode.Auto
+        PaddingBottom: =20
+        PaddingLeft: =20
+        PaddingRight: =20
+        PaddingTop: =20
+        Width: =1366
+        ZIndex: =5
 
-        iconBuscar As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            BorderStyle: =BorderStyle.None
+        conBuscar As groupContainer.manualLayoutContainer:
+            BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =2
-            Color: =RGBA(166, 166, 166, 1)
-            Height: =Parent.Height
-            Icon: =Icon.Search
-            PaddingBottom: =15
-            PaddingLeft: =15
-            PaddingRight: =15
-            PaddingTop: =15
-            Tooltip: ="View item details"
-            Width: =Parent.Height
-            X: =1253
+            DropShadow: =DropShadow.None
+            Height: =70
+            LayoutMinHeight: =0
+            LayoutMinWidth: =0
+            RadiusBottomLeft: =100
+            RadiusBottomRight: =100
+            RadiusTopLeft: =100
+            RadiusTopRight: =100
+            Width: =1326
+            X: =13
+            Y: =14
             ZIndex: =1
 
-        inpBuscar As text:
-            BorderStyle: =BorderStyle.None
-            Default: =""
-            Font: =Font.Lato
-            Height: =70
-            PaddingLeft: =30
-            Size: =20
-            Width: =1253
+            inpBuscar As text:
+                BorderStyle: =BorderStyle.None
+                Default: =""
+                Font: =Font.Lato
+                Height: =70
+                PaddingLeft: =30
+                Size: =20
+                Width: =1253
+                ZIndex: =1
+
+            iconBuscar As icon.ChevronRight:
+                AccessibleLabel: =Self.Tooltip
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(166, 166, 166, 1)
+                Height: =Parent.Height
+                Icon: =Icon.Search
+                PaddingBottom: =15
+                PaddingLeft: =15
+                PaddingRight: =15
+                PaddingTop: =15
+                Tooltip: ="View item details"
+                Width: =Parent.Height
+                X: =1190
+                ZIndex: =2
+
+        conCarrito As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            LayoutMinHeight: =0
+            LayoutMinWidth: =250
+            Width: =Self.Height
             ZIndex: =2
+
+            Image1 As image:
+                Height: =68
+                Image: |-
+                    ="data:image/svg+xml;utf8, "& EncodeUrl(
+                        <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-view-list' viewBox='0 0 16 16'>
+                        <path d='M3 4.5h10a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2m0 1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1zM1 2a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13A.5.5 0 0 1 1 2m0 12a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13A.5.5 0 0 1 1 14'/>
+                        </svg>
+                    )
+                Width: =68
+                ZIndex: =1
 
