@@ -1,13 +1,13 @@
-ListaPreciosScreen_1 As screen:
+ListaItemsSeleccionadosScreen As screen:
 
     conListaPrecios_1 As groupContainer.horizontalAutoLayoutContainer:
         DropShadow: =DropShadow.None
-        Height: =639
+        Height: =660
         LayoutAlignItems: =LayoutAlignItems.Center
         LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
-        Width: =ListaPreciosScreen_1.Width
-        Y: =129
+        Width: =ListaItemsSeleccionadosScreen.Width
+        Y: =108
         ZIndex: =2
 
         vconListaPrecios_1 As groupContainer.verticalAutoLayoutContainer:
@@ -22,7 +22,7 @@ ListaPreciosScreen_1 As screen:
                 AlignInContainer: =AlignInContainer.SetByContainer
                 DelayItemLoading: =true
                 Height: =Parent.Height
-                Items: =colItemsSeleccionados
+                Items: =Search(colItemsSeleccionados, inpBuscarItems.Text, "titulo")
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
@@ -120,43 +120,83 @@ ListaPreciosScreen_1 As screen:
                     Width: =1366
                     ZIndex: =1
 
-    conBuscar_1 As groupContainer.manualLayoutContainer:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        BorderThickness: =2
-        DropShadow: =DropShadow.None
-        Height: =70
-        RadiusBottomLeft: =100
-        RadiusBottomRight: =100
-        RadiusTopLeft: =100
-        RadiusTopRight: =100
-        Width: =1326
-        X: =13
-        Y: =14
-        ZIndex: =4
+    Container2_1 As groupContainer.horizontalAutoLayoutContainer:
+        Height: =108
+        LayoutGap: =10
+        LayoutMode: =LayoutMode.Auto
+        PaddingBottom: =20
+        PaddingLeft: =20
+        PaddingRight: =20
+        PaddingTop: =20
+        Width: =1366
+        ZIndex: =3
 
-        iconBuscar_1 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            BorderStyle: =BorderStyle.None
+        conBuscar_1 As groupContainer.manualLayoutContainer:
+            BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =2
-            Color: =RGBA(166, 166, 166, 1)
-            Height: =Parent.Height
-            Icon: =Icon.Search
-            PaddingBottom: =15
-            PaddingLeft: =15
-            PaddingRight: =15
-            PaddingTop: =15
-            Tooltip: ="View item details"
-            Width: =Parent.Height
-            X: =1253
+            DropShadow: =DropShadow.None
+            Height: =70
+            LayoutMinHeight: =0
+            LayoutMinWidth: =0
+            RadiusBottomLeft: =100
+            RadiusBottomRight: =100
+            RadiusTopLeft: =100
+            RadiusTopRight: =100
+            Width: =1326
+            X: =13
+            Y: =14
             ZIndex: =1
 
-        inpBuscar_1 As text:
-            BorderStyle: =BorderStyle.None
-            Default: =""
-            Font: =Font.Lato
-            Height: =70
-            PaddingLeft: =30
-            Size: =20
-            Width: =1253
+            inpBuscarItems As text:
+                BorderStyle: =BorderStyle.None
+                Default: =""
+                Font: =Font.Lato
+                Height: =68
+                PaddingLeft: =30
+                Size: =20
+                Width: =1178
+                ZIndex: =1
+
+            conCarrito_2 As groupContainer.manualLayoutContainer:
+                Height: =68
+                Width: =80
+                X: =1178
+                ZIndex: =2
+
+                iconBuscar_1 As image:
+                    Height: =Self.Width
+                    Image: |-
+                        ="data:image/svg+xml;utf8, "& EncodeUrl(
+                            Substitute(LookUp(colCustomIcons, IconName = "SearchIcon").IconData,
+                            "currentColor",
+                            "#A6A6A6"
+                            )
+                        )
+                    Width: =Parent.Height * 0.7
+                    X: =(Parent.Width - Self.Width) / 2
+                    Y: =(Parent.Height - Self.Height) / 2
+                    ZIndex: =2
+
+        conCarrito_3 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.None
+            FillPortions: =0
+            LayoutMinHeight: =0
+            LayoutMinWidth: =250
+            Width: =Self.Height
             ZIndex: =2
+
+            imgList_1 As image:
+                Height: =Parent.Height*0.98
+                Image: |-
+                    ="data:image/svg+xml;utf8, "& EncodeUrl(
+                        Substitute(LookUp(colCustomIcons, IconName = "ListIcon").IconData,
+                        "currentColor",
+                        "#A6A6A6"
+                        )
+                    )
+                OnSelect: =Navigate(ListaItemsSeleccionadosScreen, ScreenTransition.Cover)
+                Width: =Parent.Width*.8
+                X: =(Parent.Width - Self.Width) / 2
+                Y: =(Parent.Height - Self.Height) / 2
+                ZIndex: =1
 

@@ -133,6 +133,6 @@
   },
   "ScreenOrder": [
     "ListaPreciosScreen",
-    "ListaPreciosScreen_1"
+    "ListaItemsSeleccionadosScreen"
   ]
 }

@@ -108,6 +108,7 @@ ListaPreciosScreen As screen:
 
     Container2 As groupContainer.horizontalAutoLayoutContainer:
         Height: =108
+        LayoutGap: =10
         LayoutMode: =LayoutMode.Auto
         PaddingBottom: =20
         PaddingLeft: =20
@@ -163,6 +164,7 @@ ListaPreciosScreen As screen:
                     ZIndex: =2
 
         conCarrito As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.None
             FillPortions: =0
             LayoutMinHeight: =0
             LayoutMinWidth: =250
@@ -178,6 +180,7 @@ ListaPreciosScreen As screen:
                         "#A6A6A6"
                         )
                     )
+                OnSelect: =Navigate(ListaItemsSeleccionadosScreen, ScreenTransition.Cover)
                 Width: =Parent.Width*.8
                 X: =(Parent.Width - Self.Width) / 2
                 Y: =(Parent.Height - Self.Height) / 2
