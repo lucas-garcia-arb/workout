@@ -23,7 +23,7 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charOffset": 139,
+                  "charOffset": 134,
                   "snippet": {
                     "text": ""
                   }
@@ -64,7 +64,7 @@
                 },
                 "region": {
                   "charLength": 9,
-                  "charOffset": 48,
+                  "charOffset": 47,
                   "snippet": {
                     "text": "coleccion"
                   }
@@ -103,10 +103,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 99,
-                  "charOffset": 40,
+                  "charLength": 95,
+                  "charOffset": 39,
                   "snippet": {
-                    "text": "Collect(coleccion, {\r\n        titulo: Productos.titulo,\r\n        precio: Productos.precio\r\n    }\r\n)"
+                    "text": "Collect(coleccion, {\n        titulo: Productos.titulo,\n        precio: Productos.precio\n    }\n)"
                   }
                 }
               },
