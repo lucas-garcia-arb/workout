@@ -169,7 +169,7 @@ ListaPreciosScreen As screen:
                 Height: =68
                 Image: |-
                     ="data:image/svg+xml;utf8, "& EncodeUrl(
-                    LookUp(customIcons, IconName = "RightIcon").IconData
+                        LookUp(colCustomIcons, IconName = "Right").IconData
                     )
                 Width: =68
                 ZIndex: =1
