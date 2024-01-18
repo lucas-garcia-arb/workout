@@ -142,6 +142,7 @@ ListaItemsSeleccionadosScreen As screen:
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
+                PaddingTop: =20
                 Width: =Parent.Width
                 ZIndex: =2
 

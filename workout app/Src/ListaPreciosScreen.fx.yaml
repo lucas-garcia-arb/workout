@@ -48,13 +48,13 @@ ListaPreciosScreen As screen:
                     Width: =1253
                     ZIndex: =1
 
-                conCarrito_1 As groupContainer.manualLayoutContainer:
+                conBuscarLogo As groupContainer.manualLayoutContainer:
                     Height: =68
                     Width: =80
                     X: =1178
                     ZIndex: =2
 
-                    iconBuscar As image:
+                    imgBuscarLogo As image:
                         Height: =Self.Width
                         Image: |-
                             ="data:image/svg+xml;utf8, "& EncodeUrl(

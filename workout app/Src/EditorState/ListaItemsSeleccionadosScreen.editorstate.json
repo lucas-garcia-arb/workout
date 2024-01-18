@@ -5137,7 +5137,15 @@
         "RadiusTopLeft",
         "RadiusTopRight",
         "RadiusBottomLeft",
-        "RadiusBottomRight"
+        "RadiusBottomRight",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "PaddingTop",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        }
       ],
       "DynamicProperties": [
         {
@@ -5304,6 +5312,11 @@
         {
           "Category": "Design",
           "PropertyName": "Height",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "PaddingTop",
           "RuleProviderType": "Unknown"
         }
       ],
