@@ -25,7 +25,7 @@ ListaPrecios As screen:
                 LayoutMinHeight: =100
                 LayoutMinWidth: =320
                 LoadingSpinner: =LoadingSpinner.Data
-                TemplatePadding: =0
+                TemplatePadding: =10
                 TemplateSize: =60
                 Width: =Parent.Width * 0.8
                 X: =40
@@ -40,23 +40,21 @@ ListaPrecios As screen:
 
                     Title3 As label:
                         FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                        Height: =Self.Size * 1.8
-                        OnSelect: =Select(Parent)
+                        Height: =26
                         PaddingBottom: =0
                         PaddingLeft: =0
                         PaddingRight: =0
                         PaddingTop: =0
                         Text: =ThisItem.titulo
                         VerticalAlign: =VerticalAlign.Top
-                        Width: =glyPrecios.TemplateWidth - 86
+                        Width: =922
                         X: =1
-                        Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle2.Size * 1.8)) / 2
+                        Y: =(Parent.Height - (Self.Size * 1.8 + Subtitle2.Size * 1.8)) / 2
                         ZIndex: =1
 
                     Subtitle2 As label:
                         FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
                         Height: =24
-                        OnSelect: =Select(Parent)
                         PaddingBottom: =0
                         PaddingLeft: =0
                         PaddingRight: =0
@@ -64,7 +62,8 @@ ListaPrecios As screen:
                         Text: =ThisItem.precio
                         VerticalAlign: =VerticalAlign.Top
                         Width: =294
-                        Y: =10
+                        X: =1
+                        Y: =26
                         ZIndex: =2
 
                     NextArrow3 As icon.ChevronRight:
@@ -72,7 +71,6 @@ ListaPrecios As screen:
                         Color: =RGBA(166, 166, 166, 1)
                         Height: =50
                         Icon: =Icon.ChevronRight
-                        OnSelect: =Select(Parent)
                         PaddingBottom: =16
                         PaddingLeft: =16
                         PaddingRight: =16
@@ -80,6 +78,6 @@ ListaPrecios As screen:
                         Tooltip: ="View item details"
                         Width: =50
                         X: =Parent.Width - Self.Width - 10
-                        Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+                        Y: =(Parent.Height / 2) - (Self.Height / 2)
                         ZIndex: =3
 

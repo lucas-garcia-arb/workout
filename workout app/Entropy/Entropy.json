@@ -17,7 +17,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/18/2024 14:15:42",
+  "HeaderLastSavedDateTimeUTC": "01/18/2024 14:19:02",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c262ae22-db6a-4d35-82ae-954b565d953c": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/shared-excelonlinebu-dd62666d-981d-4321-a9d0-0fb604784bc9\"",
@@ -73,10 +73,10 @@
   "PublishOrderIndices": {
     "App": 0,
     "conListaPrecios": 0,
-    "Container1": 0,
-    "galleryTemplate1": 2,
+    "Container1": 1,
+    "galleryTemplate1": 3,
     "glyConListItem": 4,
-    "glyPrecios": 1,
+    "glyPrecios": 2,
     "Host": 0,
     "ListaPrecios": 0,
     "NextArrow3": 5,
