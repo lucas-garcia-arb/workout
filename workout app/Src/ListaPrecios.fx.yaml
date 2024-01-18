@@ -17,14 +17,12 @@ ListaPrecios As screen:
             ZIndex: =2
 
             "glyPrecios As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
-                AlignInContainer: =AlignInContainer.SetByContainer
                 DelayItemLoading: =true
                 Height: =626
                 Items: =listaPrecios
                 Layout: =Layout.Vertical
-                LayoutMinHeight: =100
-                LayoutMinWidth: =320
                 LoadingSpinner: =LoadingSpinner.Data
+                ShowScrollbar: =false
                 TemplatePadding: =10
                 TemplateSize: =60
                 Width: =Parent.Width * 0.8
@@ -38,34 +36,6 @@ ListaPrecios As screen:
                     X: =(Parent.TemplateWidth - Self.Width) / 2
                     ZIndex: =6
 
-                    Title3 As label:
-                        FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                        Height: =26
-                        PaddingBottom: =0
-                        PaddingLeft: =0
-                        PaddingRight: =0
-                        PaddingTop: =0
-                        Text: =ThisItem.titulo
-                        VerticalAlign: =VerticalAlign.Top
-                        Width: =922
-                        X: =1
-                        Y: =(Parent.Height - (Self.Size * 1.8 + Subtitle2.Size * 1.8)) / 2
-                        ZIndex: =1
-
-                    Subtitle2 As label:
-                        FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                        Height: =24
-                        PaddingBottom: =0
-                        PaddingLeft: =0
-                        PaddingRight: =0
-                        PaddingTop: =0
-                        Text: =ThisItem.precio
-                        VerticalAlign: =VerticalAlign.Top
-                        Width: =294
-                        X: =1
-                        Y: =26
-                        ZIndex: =2
-
                     NextArrow3 As icon.ChevronRight:
                         AccessibleLabel: =Self.Tooltip
                         Color: =RGBA(166, 166, 166, 1)
@@ -78,6 +48,38 @@ ListaPrecios As screen:
                         Tooltip: ="View item details"
                         Width: =50
                         X: =Parent.Width - Self.Width - 10
-                        Y: =(Parent.Height / 2) - (Self.Height / 2)
+                        Y: =(Parent.Height - Self.Height) / 2
+                        ZIndex: =1
+
+                    lblPrecio As label:
+                        Font: =Font.Lato
+                        FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                        Height: =22
+                        PaddingBottom: =0
+                        PaddingLeft: =0
+                        PaddingRight: =0
+                        PaddingTop: =0
+                        Size: =16
+                        Text: ="$ " & ThisItem.precio
+                        VerticalAlign: =VerticalAlign.Top
+                        Width: =Parent.Width * 0.2
+                        X: =lblTitulo.Width + lblTitulo.X
+                        Y: =21
+                        ZIndex: =2
+
+                    lblTitulo As label:
+                        Font: =Font.Lato
+                        FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                        Height: =26
+                        PaddingBottom: =0
+                        PaddingLeft: =0
+                        PaddingRight: =0
+                        PaddingTop: =0
+                        Size: =16
+                        Text: =Proper(ThisItem.titulo)
+                        VerticalAlign: =VerticalAlign.Top
+                        Width: =Parent.Width * 0.7
+                        X: =48
+                        Y: =(Parent.Height - Self.Height) / 2
                         ZIndex: =3
 

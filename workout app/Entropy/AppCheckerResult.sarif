@@ -14,36 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.Container1.glyPrecios.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.Container1.glyPrecios.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ListaPrecios",
-                "type": "ListaPrecios.conListaPrecios.Container1.glyPrecios"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "ListaPrecios.conListaPrecios.Container1.glyPrecios.TabIndex"
                 }
               ],
@@ -67,6 +37,36 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.Container1.glyPrecios.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.Container1.glyPrecios.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ListaPrecios",
+                "type": "ListaPrecios.conListaPrecios.Container1.glyPrecios"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 1
         },
         {
@@ -74,19 +74,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.Title3.FocusedBorderThickness"
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.lblTitulo.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.Title3.FocusedBorderThickness",
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.lblTitulo.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ListaPrecios",
+                "type": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.lblTitulo"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.lblTitulo.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.lblTitulo.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "ListaPrecios",
-                "type": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.Title3"
+                "type": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.lblTitulo"
               }
             }
           ],
@@ -104,19 +134,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.Title3.TabIndex"
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.lblPrecio.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.Title3.TabIndex",
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.lblPrecio.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ListaPrecios",
-                "type": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.Title3"
+                "type": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.lblPrecio"
               }
             }
           ],
@@ -127,26 +157,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.Subtitle2.FocusedBorderThickness"
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.lblPrecio.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.Subtitle2.FocusedBorderThickness",
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.lblPrecio.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "ListaPrecios",
-                "type": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.Subtitle2"
+                "type": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.lblPrecio"
               }
             }
           ],
@@ -158,36 +188,6 @@
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
           "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.Subtitle2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.Subtitle2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ListaPrecios",
-                "type": "ListaPrecios.conListaPrecios.Container1.glyPrecios.glyConListItem.Subtitle2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
         },
         {
           "locations": [
@@ -217,7 +217,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 0
         }
       ],
       "tool": {
@@ -225,23 +225,6 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
-            {
-              "id": "acc-AccessibleLabelNeeded",
-              "messageStrings": {
-                "issue": {
-                  "text": "Missing accessible label"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Edit the accessible label property to describe the item."
-                ],
-                "level": "Medium",
-                "primaryCategory": "accessibility",
-                "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
-              }
-            },
             {
               "id": "acc-TabIndexShouldBeDefinedForInteractiveControl",
               "messageStrings": {
@@ -257,6 +240,23 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
+              }
+            },
+            {
+              "id": "acc-AccessibleLabelNeeded",
+              "messageStrings": {
+                "issue": {
+                  "text": "Missing accessible label"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Edit the accessible label property to describe the item."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
               }
             },
             {
