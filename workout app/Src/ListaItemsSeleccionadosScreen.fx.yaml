@@ -241,7 +241,7 @@ ListaItemsSeleccionadosScreen As screen:
                 Height: =Parent.Height*0.98
                 Image: |-
                     ="data:image/svg+xml;utf8, "& EncodeUrl(
-                        Substitute(LookUp(colCustomIcons, IconName = "ListIcon").IconData,
+                        Substitute(LookUp(colCustomIcons, IconName = "DeleteIcon").IconData,
                         "currentColor",
                         "#A6A6A6"
                         )
