@@ -25,6 +25,7 @@ App As appinfo:
             }
         );
         Set(gblTotal, 0);
+        Set(gblTotal, Sum(workout_lista_equipos, precio));
     SizeBreakpoints: =[600, 800, 1200, 1400]
     Theme: =PowerAppsTheme
 
