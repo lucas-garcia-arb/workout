@@ -1,6 +1,7 @@
 ListaPrecios As screen:
 
     conListaPrecios As groupContainer.horizontalAutoLayoutContainer:
+        DropShadow: =DropShadow.None
         Height: =658
         LayoutAlignItems: =LayoutAlignItems.Center
         LayoutJustifyContent: =LayoutJustifyContent.Center
@@ -21,7 +22,7 @@ ListaPrecios As screen:
                 AlignInContainer: =AlignInContainer.SetByContainer
                 DelayItemLoading: =true
                 Height: =Parent.Height
-                Items: =listaPrecios
+                Items: =Search(
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
@@ -110,9 +111,7 @@ ListaPrecios As screen:
         RadiusBottomRight: =100
         RadiusTopLeft: =100
         RadiusTopRight: =100
-        Width: |+
-            =Parent.Width * 0.98
-            
+        Width: =1326
         X: =13
         Y: =14
         ZIndex: =4
@@ -135,7 +134,10 @@ ListaPrecios As screen:
 
         inpBuscar As text:
             Default: =""
+            Font: =Font.Lato
             Height: =70
+            PaddingLeft: =30
+            Size: =20
             Width: =1253
             ZIndex: =2
 
