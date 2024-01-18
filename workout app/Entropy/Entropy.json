@@ -15,13 +15,13 @@
     "inpBuscar": 7,
     "lblPrecio": 17,
     "lblTitulo": 16,
-    "ListaPrecios": 5,
+    "ListaPreciosScreen": 5,
     "PowerBIIntegration": 4,
     "vconListaPrecios": 10
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/18/2024 18:07:38",
+  "HeaderLastSavedDateTimeUTC": "01/18/2024 18:31:25",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c262ae22-db6a-4d35-82ae-954b565d953c": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/shared-excelonlinebu-dd62666d-981d-4321-a9d0-0fb604784bc9\"",
@@ -62,7 +62,7 @@
     "inpBuscar": {},
     "lblPrecio": {},
     "lblTitulo": {},
-    "ListaPrecios": {},
+    "ListaPreciosScreen": {},
     "PowerBIIntegration": {
       "Data": {
         "Type": {
@@ -94,7 +94,7 @@
     "inpBuscar": 1,
     "lblPrecio": 11,
     "lblTitulo": 10,
-    "ListaPrecios": 0,
+    "ListaPreciosScreen": 0,
     "PowerBIIntegration": 0,
     "vconListaPrecios": 4
   },

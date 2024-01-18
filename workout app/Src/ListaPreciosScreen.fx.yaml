@@ -1,4 +1,4 @@
-ListaPrecios As screen:
+ListaPreciosScreen As screen:
 
     conListaPrecios As groupContainer.horizontalAutoLayoutContainer:
         DropShadow: =DropShadow.None
@@ -6,7 +6,7 @@ ListaPrecios As screen:
         LayoutAlignItems: =LayoutAlignItems.Center
         LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
-        Width: =ListaPrecios.Width
+        Width: =ListaPreciosScreen.Width
         Y: =108
         ZIndex: =2
 
@@ -22,7 +22,7 @@ ListaPrecios As screen:
                 AlignInContainer: =AlignInContainer.SetByContainer
                 DelayItemLoading: =true
                 Height: =Parent.Height
-                Items: =listaPrecios
+                Items: =Search(listaPrecios, inpBuscar.Text, "titulo")
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
@@ -79,7 +79,8 @@ ListaPrecios As screen:
                         PaddingRight: =0
                         PaddingTop: =0
                         Size: =16
-                        Text: ="$ " & ThisItem.precio
+                        Text: |-
+                            =Text(ThisItem.precio, "$ #,###")
                         VerticalAlign: =VerticalAlign.Top
                         Width: =Parent.Width * 0.2
                         X: =Parent.Width / 2
@@ -133,6 +134,7 @@ ListaPrecios As screen:
             ZIndex: =1
 
         inpBuscar As text:
+            BorderStyle: =BorderStyle.None
             Default: =""
             Font: =Font.Lato
             Height: =70
