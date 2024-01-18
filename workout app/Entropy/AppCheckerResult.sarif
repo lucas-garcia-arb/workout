@@ -464,66 +464,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.Container2_1.conCarrito_3.imgList_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.Container2_1.conCarrito_3.imgList_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.Container5.Container2_1.conCarrito_3.imgList_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.Container2_1.conCarrito_3.imgList_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.Container2_1.conCarrito_3.imgList_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.Container5.Container2_1.conCarrito_3.imgList_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.Container2_1.conBuscar_1.inpBuscarItems.AccessibleLabel"
                 }
               ],
