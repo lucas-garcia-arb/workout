@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: |-
+    OnStart: |
         =ClearCollect(colCustomIcons,
             {
                 IconName: "ListIcon",
@@ -24,7 +24,6 @@ App As appinfo:
                 </svg>"
             }
         );
-        
         Set(gblTotal, 0);
     SizeBreakpoints: =[600, 800, 1200, 1400]
     Theme: =PowerAppsTheme
