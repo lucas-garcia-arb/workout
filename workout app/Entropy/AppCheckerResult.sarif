@@ -374,19 +374,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.Container2.conBuscar.inpBuscar.AccessibleLabel"
+                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conBuscar.inpBuscar.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.Container2.conBuscar.inpBuscar.AccessibleLabel",
+                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conBuscar.inpBuscar.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ListaPreciosScreen",
-                "type": "ListaPreciosScreen.conListaScreen.Container2.conBuscar.inpBuscar"
+                "type": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conBuscar.inpBuscar"
               }
             }
           ],
@@ -404,19 +404,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.Container2.conCarrito.imgList.AccessibleLabel"
+                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conCarrito.imgList.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.Container2.conCarrito.imgList.AccessibleLabel",
+                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conCarrito.imgList.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ListaPreciosScreen",
-                "type": "ListaPreciosScreen.conListaScreen.Container2.conCarrito.imgList"
+                "type": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conCarrito.imgList"
               }
             }
           ],
@@ -434,19 +434,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.Container2.conCarrito.imgList.TabIndex"
+                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conCarrito.imgList.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.Container2.conCarrito.imgList.TabIndex",
+                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conCarrito.imgList.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ListaPreciosScreen",
-                "type": "ListaPreciosScreen.conListaScreen.Container2.conCarrito.imgList"
+                "type": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conCarrito.imgList"
               }
             }
           ],
@@ -657,6 +657,66 @@
                 "member": "TabIndex",
                 "module": "ListaPreciosScreen",
                 "type": "ListaPreciosScreen.conListaScreen.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblPrecio"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conLogo.imgLogoArkano.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conLogo.imgLogoArkano.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ListaPreciosScreen",
+                "type": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conLogo.imgLogoArkano"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conLogo.imgLogoArkano.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conLogo.imgLogoArkano.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ListaPreciosScreen",
+                "type": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conLogo.imgLogoArkano"
               }
             }
           ],

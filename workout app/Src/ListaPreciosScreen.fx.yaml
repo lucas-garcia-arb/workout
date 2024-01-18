@@ -7,10 +7,11 @@ ListaPreciosScreen As screen:
         Width: =Parent.Width
         ZIndex: =6
 
-        Container2 As groupContainer.horizontalAutoLayoutContainer:
+        conHeaderLPS As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             FillPortions: =0
             Height: =108
+            LayoutAlignItems: =LayoutAlignItems.Stretch
             LayoutGap: =10
             LayoutMinHeight: =100
             LayoutMinWidth: =250
@@ -22,7 +23,26 @@ ListaPreciosScreen As screen:
             Width: =Parent.Width
             ZIndex: =1
 
+            conLogo As groupContainer.manualLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DropShadow: =DropShadow.None
+                FillPortions: =0
+                LayoutMinHeight: =0
+                LayoutMinWidth: =250
+                Width: =Self.Height
+                ZIndex: =1
+
+                imgLogoArkano As image:
+                    Height: =Parent.Height*0.98
+                    Image: =arkano_software_logo
+                    OnSelect: =Navigate(ListaItemsSeleccionadosScreen, ScreenTransition.Cover)
+                    Width: =Parent.Width*.8
+                    X: =(Parent.Width - Self.Width) / 2
+                    Y: =(Parent.Height - Self.Height) / 2
+                    ZIndex: =1
+
             conBuscar As groupContainer.manualLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 BorderColor: =RGBA(166, 166, 166, 1)
                 BorderThickness: =2
                 DropShadow: =DropShadow.None
@@ -36,21 +56,21 @@ ListaPreciosScreen As screen:
                 Width: =1326
                 X: =13
                 Y: =14
-                ZIndex: =1
+                ZIndex: =2
 
                 inpBuscar As text:
                     BorderStyle: =BorderStyle.None
                     Default: =""
                     Font: =Font.Lato
-                    Height: =70
+                    Height: =68
                     PaddingLeft: =30
                     Size: =20
-                    Width: =1253
+                    Width: =1178
                     ZIndex: =1
 
                 conBuscarLogo As groupContainer.manualLayoutContainer:
                     Height: =68
-                    Width: =80
+                    Width: =70
                     X: =1178
                     ZIndex: =2
 
@@ -69,12 +89,13 @@ ListaPreciosScreen As screen:
                         ZIndex: =2
 
             conCarrito As groupContainer.manualLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.None
                 FillPortions: =0
                 LayoutMinHeight: =0
                 LayoutMinWidth: =250
                 Width: =Self.Height
-                ZIndex: =2
+                ZIndex: =3
 
                 imgList As image:
                     Height: =Parent.Height*0.98
