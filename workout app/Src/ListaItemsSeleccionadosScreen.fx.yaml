@@ -234,7 +234,7 @@ ListaItemsSeleccionadosScreen As screen:
                             PaddingRight: =0
                             PaddingTop: =0
                             Size: =16
-                            Text: =Proper(ThisItem.titulo)
+                            Text: =Proper(ThisItem.Title)
                             VerticalAlign: =VerticalAlign.Top
                             Width: =Parent.Width * 0.4
                             X: =48
