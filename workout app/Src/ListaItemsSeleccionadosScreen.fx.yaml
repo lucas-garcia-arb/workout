@@ -120,7 +120,7 @@ ListaItemsSeleccionadosScreen As screen:
                             )
                         )
                     OnSelect: |-
-                        =Clear(colItemsSeleccionados);
+                        =//Clear(workout_lista_equipos);
                         Set(gblTotal, 0);
                     Width: =Parent.Width*.8
                     X: =(Parent.Width - Self.Width) / 2
