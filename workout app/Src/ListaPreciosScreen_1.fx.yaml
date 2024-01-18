@@ -7,6 +7,7 @@ ListaPreciosScreen_1 As screen:
         LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
         Width: =ListaPreciosScreen_1.Width
+        Y: =129
         ZIndex: =2
 
         vconListaPrecios_1 As groupContainer.verticalAutoLayoutContainer:
@@ -21,7 +22,7 @@ ListaPreciosScreen_1 As screen:
                 AlignInContainer: =AlignInContainer.SetByContainer
                 DelayItemLoading: =true
                 Height: =Parent.Height
-                Items: =Search(colItemsSeleccionados, inpBuscar_1.Text, "titulo")
+                Items: =colItemsSeleccionados
                 Layout: =Layout.Vertical
                 LayoutMinHeight: =287
                 LayoutMinWidth: =320
@@ -60,10 +61,8 @@ ListaPreciosScreen_1 As screen:
                             BorderThickness: =2
                             Color: =RGBA(166, 166, 166, 1)
                             Height: =Parent.Height
-                            Icon: =Icon.Add
-                            OnSelect: |-
-                                =Set(gblItemSeleccionado, ThisItem);
-                                Collect(colItemsSeleccionados, gblItemSeleccionado);
+                            Icon: =Icon.Trash
+                            OnSelect: =Remove(colItemsSeleccionados, ThisItem);
                             PaddingBottom: =15
                             PaddingLeft: =15
                             PaddingRight: =15
@@ -104,6 +103,22 @@ ListaPreciosScreen_1 As screen:
                         X: =48
                         Y: =(Parent.Height - Self.Height) / 2
                         ZIndex: =4
+
+            Container1 As groupContainer.manualLayoutContainer:
+                FillPortions: =0
+                Height: =70
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                ZIndex: =2
+
+                Label1 As label:
+                    Align: =Align.Center
+                    Font: =Font.'Lato Black'
+                    Height: =70
+                    Size: =20
+                    Text: ="Total"
+                    Width: =1366
+                    ZIndex: =1
 
     conBuscar_1 As groupContainer.manualLayoutContainer:
         BorderColor: =RGBA(166, 166, 166, 1)
