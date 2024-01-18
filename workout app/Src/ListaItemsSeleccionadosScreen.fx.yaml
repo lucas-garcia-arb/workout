@@ -156,7 +156,7 @@ ListaItemsSeleccionadosScreen As screen:
                     AlignInContainer: =AlignInContainer.SetByContainer
                     DelayItemLoading: =true
                     Height: =Parent.Height
-                    Items: =Search(workout_lista_equipos, inpBuscar_1.Text, "titulo")
+                    Items: =Search(workout_lista_equipos, inpBuscar_1.Text, "Title")
                     Layout: =Layout.Vertical
                     LayoutMinHeight: =287
                     LayoutMinWidth: =320
@@ -267,7 +267,8 @@ ListaItemsSeleccionadosScreen As screen:
                     Height: =70
                     Size: =20
                     Text: |-
-                        ="Items: " & CountRows(colItemsSeleccionados)
+                        ="Items: " & CountRows(work}
+                        )
                     Width: =Parent.Width * 0.5
                     ZIndex: =2
 
