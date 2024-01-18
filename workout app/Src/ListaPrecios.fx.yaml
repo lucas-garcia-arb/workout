@@ -18,10 +18,13 @@ ListaPrecios As screen:
             ZIndex: =2
 
             "glyPrecios As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
+                AlignInContainer: =AlignInContainer.SetByContainer
                 DelayItemLoading: =true
                 Height: =Parent.Height
-                Items: =If(inpBuscar.Text = "", ListaPrecios, Filter(ListaPrecios, inpBuscar.Text = "bank")
+                Items: =listaPrecios
                 Layout: =Layout.Vertical
+                LayoutMinHeight: =287
+                LayoutMinWidth: =320
                 LoadingSpinner: =LoadingSpinner.Data
                 ShowScrollbar: =false
                 TemplatePadding: =10
@@ -131,7 +134,7 @@ ListaPrecios As screen:
             ZIndex: =1
 
         inpBuscar As text:
-            Default: ="Text input"
+            Default: =""
             Height: =70
             Width: =1253
             ZIndex: =2
