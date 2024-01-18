@@ -22,6 +22,8 @@ ListaPrecios As screen:
                 Height: =Parent.Height
                 Items: =listaPrecios
                 Layout: =Layout.Vertical
+                LayoutMinHeight: =287
+                LayoutMinWidth: =320
                 LoadingSpinner: =LoadingSpinner.Data
                 ShowScrollbar: =false
                 TemplatePadding: =10
@@ -78,8 +80,8 @@ ListaPrecios As screen:
                         Text: ="$ " & ThisItem.precio
                         VerticalAlign: =VerticalAlign.Top
                         Width: =Parent.Width * 0.2
-                        X: =lblTitulo.Width + lblTitulo.X
-                        Y: =21
+                        X: =Parent.Width / 2
+                        Y: =(Parent.Height - Self.Height) / 2
                         ZIndex: =3
 
                     lblTitulo As label:
@@ -93,7 +95,7 @@ ListaPrecios As screen:
                         Size: =16
                         Text: =Proper(ThisItem.titulo)
                         VerticalAlign: =VerticalAlign.Top
-                        Width: =Parent.Width * 0.7
+                        Width: =Parent.Width * 0.4
                         X: =48
                         Y: =(Parent.Height - Self.Height) / 2
                         ZIndex: =4

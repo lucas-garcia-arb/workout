@@ -3,22 +3,22 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "conAddIcon": 27,
+    "conAddIcon": 10,
     "conListaPrecios": 6,
-    "galleryTemplate1": 17,
-    "glyConListItem": 19,
-    "glyPrecios": 16,
+    "galleryTemplate1": 14,
+    "glyConListItem": 9,
+    "glyPrecios": 8,
     "Host": 3,
-    "iconAdd": 28,
-    "lblPrecio": 25,
-    "lblTitulo": 24,
+    "iconAdd": 11,
+    "lblPrecio": 12,
+    "lblTitulo": 13,
     "ListaPrecios": 5,
     "PowerBIIntegration": 4,
-    "vconListaPrecios": 15
+    "vconListaPrecios": 7
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/18/2024 15:09:40",
+  "HeaderLastSavedDateTimeUTC": "01/18/2024 17:20:06",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c262ae22-db6a-4d35-82ae-954b565d953c": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/shared-excelonlinebu-dd62666d-981d-4321-a9d0-0fb604784bc9\"",
@@ -94,18 +94,17 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1138043,
+    "AnalysisLoadTime": 0.1040175,
     "ControlCount": {
-      "gallery": 2,
-      "galleryTemplate": 2,
-      "groupContainer": 3,
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "groupContainer": 4,
       "hostControl": 1,
-      "icon": 4,
-      "label": 6,
-      "rectangle": 4,
+      "icon": 1,
+      "label": 2,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.9444538
+    "DeserializationLoadTime": 1.3417191
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
