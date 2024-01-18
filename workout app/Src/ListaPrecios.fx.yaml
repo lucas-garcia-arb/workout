@@ -1,11 +1,12 @@
 ListaPrecios As screen:
 
     conListaPrecios As groupContainer.horizontalAutoLayoutContainer:
-        Height: =768
+        Height: =658
         LayoutAlignItems: =LayoutAlignItems.Center
         LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
         Width: =ListaPrecios.Width
+        Y: =108
         ZIndex: =2
 
         vconListaPrecios As groupContainer.verticalAutoLayoutContainer:
@@ -17,25 +18,22 @@ ListaPrecios As screen:
             ZIndex: =2
 
             "glyPrecios As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
-                AlignInContainer: =AlignInContainer.SetByContainer
                 DelayItemLoading: =true
                 Height: =Parent.Height
-                Items: =listaPrecios
+                Items: =If(inpBuscar.Text = "", ListaPrecios, Filter(ListaPrecios, inpBuscar.Text = "bank")
                 Layout: =Layout.Vertical
-                LayoutMinHeight: =287
-                LayoutMinWidth: =320
                 LoadingSpinner: =LoadingSpinner.Data
                 ShowScrollbar: =false
                 TemplatePadding: =10
                 TemplateSize: =80
-                Width: =Parent.Width * 0.8
+                Width: =Parent.Width
                 X: =40
                 Y: =140
                 ZIndex: =1
 
                 glyConListItem As groupContainer.manualLayoutContainer:
                     Height: =glyPrecios.TemplateHeight
-                    Width: =glyPrecios.TemplateWidth *0.9
+                    Width: =glyPrecios.TemplateWidth *0.98
                     X: =(Parent.TemplateWidth - Self.Width) / 2
                     ZIndex: =6
 
@@ -99,4 +97,42 @@ ListaPrecios As screen:
                         X: =48
                         Y: =(Parent.Height - Self.Height) / 2
                         ZIndex: =4
+
+    conBuscar As groupContainer.manualLayoutContainer:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderThickness: =2
+        DropShadow: =DropShadow.None
+        Height: =70
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: |+
+            =Parent.Width * 0.98
+            
+        X: =13
+        Y: =14
+        ZIndex: =4
+
+        iconBuscar As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(166, 166, 166, 1)
+            Height: =Parent.Height
+            Icon: =Icon.Search
+            PaddingBottom: =15
+            PaddingLeft: =15
+            PaddingRight: =15
+            PaddingTop: =15
+            Tooltip: ="View item details"
+            Width: =Parent.Height
+            X: =1253
+            ZIndex: =1
+
+        inpBuscar As text:
+            Default: ="Text input"
+            Height: =70
+            Width: =1253
+            ZIndex: =2
 

@@ -14,17 +14,64 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.AccessibleLabel"
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.Items"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.AccessibleLabel",
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.Items",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charOffset": 83,
+                  "snippet": {
+                    "text": ""
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
+                "member": "Items",
+                "module": "ListaPrecios",
+                "type": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Eof",
+              "ParenClose"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 45,
+                  "snippet": {
+                    "text": "ListaPrecios"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
                 "module": "ListaPrecios",
                 "type": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios"
               }
@@ -34,10 +81,438 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleId": "app-ErrBadType",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 45,
+                  "charOffset": 38,
+                  "snippet": {
+                    "text": "Filter(ListaPrecios, inpBuscar.Text = \"bank\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "ListaPrecios",
+                "type": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblPrecio.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblPrecio.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 7,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "ListaPrecios",
+                "type": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblPrecio"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblPrecio.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblPrecio.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": ".precio"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "ListaPrecios",
+                "type": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblPrecio"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblPrecio.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblPrecio.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 3,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "ListaPrecios",
+                "type": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblPrecio"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblPrecio.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblPrecio.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 11,
+                  "snippet": {
+                    "text": ".IsSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "ListaPrecios",
+                "type": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblPrecio"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblPrecio.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblPrecio.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 63,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "ListaPrecios",
+                "type": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblPrecio"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "If"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblTitulo.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblTitulo.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 7,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "ListaPrecios",
+                "type": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblTitulo"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblTitulo.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblTitulo.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": ".titulo"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "ListaPrecios",
+                "type": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblTitulo"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblTitulo.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblTitulo.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 3,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "ListaPrecios",
+                "type": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblTitulo"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblTitulo.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblTitulo.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 11,
+                  "snippet": {
+                    "text": ".IsSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "ListaPrecios",
+                "type": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblTitulo"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblTitulo.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblTitulo.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 63,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "ListaPrecios",
+                "type": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblTitulo"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "If"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -67,26 +542,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 5
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.conAddIcon.iconAdd.TabIndex"
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.conAddIcon.iconAdd.TabIndex",
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "TabIndex",
+                "member": "AccessibleLabel",
                 "module": "ListaPrecios",
-                "type": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.conAddIcon.iconAdd"
+                "type": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios"
               }
             }
           ],
@@ -96,38 +571,8 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblPrecio.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblPrecio.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "ListaPrecios",
-                "type": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblPrecio"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -157,26 +602,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 5
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblTitulo.FocusedBorderThickness"
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblPrecio.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblTitulo.FocusedBorderThickness",
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblPrecio.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "ListaPrecios",
-                "type": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblTitulo"
+                "type": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblPrecio"
               }
             }
           ],
@@ -187,7 +632,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -217,7 +662,127 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblTitulo.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblTitulo.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "ListaPrecios",
+                "type": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.lblTitulo"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPrecios.conBuscar.inpBuscar.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPrecios.conBuscar.inpBuscar.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ListaPrecios",
+                "type": "ListaPrecios.conBuscar.inpBuscar"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPrecios.conBuscar.iconBuscar.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPrecios.conBuscar.iconBuscar.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ListaPrecios",
+                "type": "ListaPrecios.conBuscar.iconBuscar"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.conAddIcon.iconAdd.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.conAddIcon.iconAdd.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ListaPrecios",
+                "type": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.conAddIcon.iconAdd"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
         }
       ],
       "tool": {
@@ -226,20 +791,79 @@
           "name": "PowerApps app checker",
           "rules": [
             {
-              "id": "acc-AccessibleLabelNeeded",
+              "id": "app-ErrExpectedFound-Ex-Fnd",
               "messageStrings": {
                 "issue": {
-                  "text": "Missing accessible label"
+                  "text": "Unexpected characters. The formula contains '{0}' where '{1}' is expected."
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "Edit the accessible label property to describe the item."
+                  "Remove or replace the unexpected characters with an expected character."
                 ],
-                "level": "Medium",
-                "primaryCategory": "accessibility",
-                "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrBadType",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid argument type."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidArgs-Func",
+              "messageStrings": {
+                "issue": {
+                  "text": "The function '{0}' has some invalid arguments."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidName",
+              "messageStrings": {
+                "issue": {
+                  "text": "Name isn't valid. '{0}' isn't recognized."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or correct the reference to the name that isn't valid."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidDot",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid use of '.'"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
               }
             },
             {
@@ -257,6 +881,23 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
+              }
+            },
+            {
+              "id": "acc-AccessibleLabelNeeded",
+              "messageStrings": {
+                "issue": {
+                  "text": "Missing accessible label"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Edit the accessible label property to describe the item."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
               }
             },
             {
