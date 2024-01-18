@@ -166,7 +166,7 @@ ListaPreciosScreen As screen:
             ZIndex: =2
 
             imgList As image:
-                Height: =Parent.Height*.95
+                Height: =Parent.Height*0.95
                 Image: |-
                     ="data:image/svg+xml;utf8, "& EncodeUrl(
                         Substitute(LookUp(colCustomIcons, IconName = "ListIcon").IconData,
