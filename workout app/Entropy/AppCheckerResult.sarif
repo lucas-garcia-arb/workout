@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBack.imgBack.AccessibleLabel"
+                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conLogo.imgLogoArkano.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBack.imgBack.AccessibleLabel",
+                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conLogo.imgLogoArkano.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBack.imgBack"
+                "module": "ListaPreciosScreen",
+                "type": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conLogo.imgLogoArkano"
               }
             }
           ],
@@ -44,319 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBack.imgBack.TabIndex"
+                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conLogo.imgLogoArkano.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBack.imgBack.TabIndex",
+                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conLogo.imgLogoArkano.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBack.imgBack"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBuscar_1.inpBuscar_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBuscar_1.inpBuscar_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBuscar_1.inpBuscar_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conCarrito_5.imgList_3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conCarrito_5.imgList_3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conCarrito_5.imgList_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conCarrito_5.imgList_3.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conCarrito_5.imgList_3.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conCarrito_5.imgList_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.conAddIcon_1.iconAdd_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.conAddIcon_1.iconAdd_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.conAddIcon_1.iconAdd_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1"
+                "module": "ListaPreciosScreen",
+                "type": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conLogo.imgLogoArkano"
               }
             }
           ],
@@ -674,19 +374,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conLogo.imgLogoArkano.AccessibleLabel"
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBuscar_1.inpBuscar_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conLogo.imgLogoArkano.AccessibleLabel",
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBuscar_1.inpBuscar_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "ListaPreciosScreen",
-                "type": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conLogo.imgLogoArkano"
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBuscar_1.inpBuscar_1"
               }
             }
           ],
@@ -704,19 +404,319 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conLogo.imgLogoArkano.TabIndex"
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBack.imgBack.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conLogo.imgLogoArkano.TabIndex",
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBack.imgBack.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBack.imgBack"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBack.imgBack.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBack.imgBack.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "ListaPreciosScreen",
-                "type": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conLogo.imgLogoArkano"
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBack.imgBack"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conCarrito_5.imgList_3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conCarrito_5.imgList_3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conCarrito_5.imgList_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conCarrito_5.imgList_3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conCarrito_5.imgList_3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conCarrito_5.imgList_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.conAddIcon_1.iconAdd_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.conAddIcon_1.iconAdd_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.conAddIcon_1.iconAdd_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.conMainLISS.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1"
               }
             }
           ],

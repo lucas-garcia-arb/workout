@@ -21,33 +21,26 @@
     "dependents": [],
     "id": "c262ae22-db6a-4d35-82ae-954b565d953c"
   },
-  "f275d17e-b234-4fbf-ad0c-e4fd8d7ed5ac": {
-    "appActions": [
-      "providers/PowerPlatform.Governance/Operations/Read",
-      "providers/PowerPlatform.Governance/Operations/Write"
-    ],
+  "e56e5b35-247d-4e0c-a492-fa15a84667bb": {
     "connectionRef": {
-      "apiTier": "Standard",
       "displayName": "SharePoint",
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1670/1.0.1670.3526/sharepointonline/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
-      "parameterHints": {},
-      "parameterHintsV2": {}
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
     },
     "datasets": {
       "https://arbustanet.sharepoint.com/sites/Docatech": {
         "dataSources": {
-          "csv_workout_files": {
-            "tableName": "af62e31e-3e7c-4d02-976d-37ea7d34ddf7"
+          "workout_lista_equipos": {
+            "tableName": "d47ab6f4-9ce1-47c0-af78-321261d53ac9"
           }
         }
       }
     },
     "dataSources": [
-      "csv_workout_files"
+      "workout_lista_equipos"
     ],
     "dependencies": {},
     "dependents": [],
-    "id": "f275d17e-b234-4fbf-ad0c-e4fd8d7ed5ac"
+    "id": "e56e5b35-247d-4e0c-a492-fa15a84667bb"
   }
 }
