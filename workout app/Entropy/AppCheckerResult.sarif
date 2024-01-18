@@ -14,6 +14,1354 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "App.OnStart"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.OnStart",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 914,
+                  "snippet": {
+                    "text": "{"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnStart",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "CurlyOpen",
+              "ParenClose"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.OnStart"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.OnStart",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 914,
+                  "snippet": {
+                    "text": "{"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnStart",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadToken",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.OnStart"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.OnStart",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 13,
+                  "snippet": {
+                    "text": "colCustomIcons"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnStart",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "colCustomIcons"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.OnStart"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.OnStart",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 12,
+                  "snippet": {
+                    "text": "("
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnStart",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ClearCollect"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conCarrito.imgList.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conCarrito.imgList.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 63,
+                  "snippet": {
+                    "text": "colCustomIcons"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaPreciosScreen",
+                "type": "ListaPreciosScreen.Container2.conCarrito.imgList"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "colCustomIcons"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conCarrito.imgList.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conCarrito.imgList.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 45,
+                  "charOffset": 56,
+                  "snippet": {
+                    "text": "LookUp(colCustomIcons, IconName = \"ListIcon\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaPreciosScreen",
+                "type": "ListaPreciosScreen.Container2.conCarrito.imgList"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conCarrito.imgList.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conCarrito.imgList.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 79,
+                  "snippet": {
+                    "text": "IconName"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaPreciosScreen",
+                "type": "ListaPreciosScreen.Container2.conCarrito.imgList"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IconName"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conCarrito.imgList.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conCarrito.imgList.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 88,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaPreciosScreen",
+                "type": "ListaPreciosScreen.Container2.conCarrito.imgList"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error",
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conCarrito.imgList.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conCarrito.imgList.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 101,
+                  "snippet": {
+                    "text": ".IconData"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaPreciosScreen",
+                "type": "ListaPreciosScreen.Container2.conCarrito.imgList"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conCarrito.imgList.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conCarrito.imgList.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 109,
+                  "charOffset": 45,
+                  "snippet": {
+                    "text": "Substitute(LookUp(colCustomIcons, IconName = \"ListIcon\").IconData,\r\n    \"currentColor\",\r\n    \"#A6A6A6\"\r\n    )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaPreciosScreen",
+                "type": "ListaPreciosScreen.Container2.conCarrito.imgList"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Substitute"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conBuscar.conCarrito_1.iconBuscar.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conBuscar.conCarrito_1.iconBuscar.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 63,
+                  "snippet": {
+                    "text": "colCustomIcons"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaPreciosScreen",
+                "type": "ListaPreciosScreen.Container2.conBuscar.conCarrito_1.iconBuscar"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "colCustomIcons"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conBuscar.conCarrito_1.iconBuscar.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conBuscar.conCarrito_1.iconBuscar.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 47,
+                  "charOffset": 56,
+                  "snippet": {
+                    "text": "LookUp(colCustomIcons, IconName = \"SearchIcon\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaPreciosScreen",
+                "type": "ListaPreciosScreen.Container2.conBuscar.conCarrito_1.iconBuscar"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conBuscar.conCarrito_1.iconBuscar.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conBuscar.conCarrito_1.iconBuscar.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 79,
+                  "snippet": {
+                    "text": "IconName"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaPreciosScreen",
+                "type": "ListaPreciosScreen.Container2.conBuscar.conCarrito_1.iconBuscar"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IconName"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conBuscar.conCarrito_1.iconBuscar.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conBuscar.conCarrito_1.iconBuscar.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 88,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaPreciosScreen",
+                "type": "ListaPreciosScreen.Container2.conBuscar.conCarrito_1.iconBuscar"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error",
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conBuscar.conCarrito_1.iconBuscar.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conBuscar.conCarrito_1.iconBuscar.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 103,
+                  "snippet": {
+                    "text": ".IconData"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaPreciosScreen",
+                "type": "ListaPreciosScreen.Container2.conBuscar.conCarrito_1.iconBuscar"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conBuscar.conCarrito_1.iconBuscar.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPreciosScreen.Container2.conBuscar.conCarrito_1.iconBuscar.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 111,
+                  "charOffset": 45,
+                  "snippet": {
+                    "text": "Substitute(LookUp(colCustomIcons, IconName = \"SearchIcon\").IconData,\r\n    \"currentColor\",\r\n    \"#A6A6A6\"\r\n    )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaPreciosScreen",
+                "type": "ListaPreciosScreen.Container2.conBuscar.conCarrito_1.iconBuscar"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Substitute"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conBuscar_1.conCarrito_2.iconBuscar_1.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conBuscar_1.conCarrito_2.iconBuscar_1.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 63,
+                  "snippet": {
+                    "text": "colCustomIcons"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.Container2_1.conBuscar_1.conCarrito_2.iconBuscar_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "colCustomIcons"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conBuscar_1.conCarrito_2.iconBuscar_1.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conBuscar_1.conCarrito_2.iconBuscar_1.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 47,
+                  "charOffset": 56,
+                  "snippet": {
+                    "text": "LookUp(colCustomIcons, IconName = \"SearchIcon\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.Container2_1.conBuscar_1.conCarrito_2.iconBuscar_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conBuscar_1.conCarrito_2.iconBuscar_1.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conBuscar_1.conCarrito_2.iconBuscar_1.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 79,
+                  "snippet": {
+                    "text": "IconName"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.Container2_1.conBuscar_1.conCarrito_2.iconBuscar_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IconName"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conBuscar_1.conCarrito_2.iconBuscar_1.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conBuscar_1.conCarrito_2.iconBuscar_1.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 88,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.Container2_1.conBuscar_1.conCarrito_2.iconBuscar_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error",
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conBuscar_1.conCarrito_2.iconBuscar_1.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conBuscar_1.conCarrito_2.iconBuscar_1.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 103,
+                  "snippet": {
+                    "text": ".IconData"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.Container2_1.conBuscar_1.conCarrito_2.iconBuscar_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conBuscar_1.conCarrito_2.iconBuscar_1.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conBuscar_1.conCarrito_2.iconBuscar_1.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 111,
+                  "charOffset": 45,
+                  "snippet": {
+                    "text": "Substitute(LookUp(colCustomIcons, IconName = \"SearchIcon\").IconData,\r\n    \"currentColor\",\r\n    \"#A6A6A6\"\r\n    )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.Container2_1.conBuscar_1.conCarrito_2.iconBuscar_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Substitute"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_3.imgList_1.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_3.imgList_1.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 63,
+                  "snippet": {
+                    "text": "colCustomIcons"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_3.imgList_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "colCustomIcons"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_3.imgList_1.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_3.imgList_1.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 45,
+                  "charOffset": 56,
+                  "snippet": {
+                    "text": "LookUp(colCustomIcons, IconName = \"ListIcon\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_3.imgList_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_3.imgList_1.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_3.imgList_1.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 79,
+                  "snippet": {
+                    "text": "IconName"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_3.imgList_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IconName"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_3.imgList_1.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_3.imgList_1.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 88,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_3.imgList_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error",
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_3.imgList_1.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_3.imgList_1.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 101,
+                  "snippet": {
+                    "text": ".IconData"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_3.imgList_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_3.imgList_1.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_3.imgList_1.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 109,
+                  "charOffset": 45,
+                  "snippet": {
+                    "text": "Substitute(LookUp(colCustomIcons, IconName = \"ListIcon\").IconData,\r\n    \"currentColor\",\r\n    \"#A6A6A6\"\r\n    )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_3.imgList_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Substitute"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 63,
+                  "snippet": {
+                    "text": "colCustomIcons"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "colCustomIcons"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 45,
+                  "charOffset": 56,
+                  "snippet": {
+                    "text": "LookUp(colCustomIcons, IconName = \"ListIcon\")"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "LookUp"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 79,
+                  "snippet": {
+                    "text": "IconName"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "IconName"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 88,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Error",
+              "Text"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 101,
+                  "snippet": {
+                    "text": ".IconData"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2.Image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2.Image",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 109,
+                  "charOffset": 45,
+                  "snippet": {
+                    "text": "Substitute(LookUp(colCustomIcons, IconName = \"ListIcon\").IconData,\r\n    \"currentColor\",\r\n    \"#A6A6A6\"\r\n    )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Image",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Substitute"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conBuscar_1.inpBuscarItems.AccessibleLabel"
                 }
               ],
@@ -37,7 +1385,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -67,7 +1415,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -97,7 +1445,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -127,7 +1475,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -157,7 +1505,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -187,7 +1535,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -217,7 +1565,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -247,7 +1595,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -277,7 +1625,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -307,7 +1655,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -337,7 +1685,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -367,7 +1715,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -397,7 +1745,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -427,7 +1775,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -457,7 +1805,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -487,7 +1835,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -517,7 +1865,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 8
         },
         {
           "locations": [
@@ -547,7 +1895,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -577,7 +1925,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -607,7 +1955,67 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ListaItemsSeleccionadosScreen",
+                "type": "ListaItemsSeleccionadosScreen.Container2_1.conCarrito_4.imgList_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 7
         }
       ],
       "tool": {
@@ -615,6 +2023,103 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
+            {
+              "id": "app-ErrExpectedFound-Ex-Fnd",
+              "messageStrings": {
+                "issue": {
+                  "text": "Unexpected characters. The formula contains '{0}' where '{1}' is expected."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or replace the unexpected characters with an expected character."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrBadToken",
+              "messageStrings": {
+                "issue": {
+                  "text": "Unexpected characters. Characters are used in the formula in an unexpected way."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or replace the unexpected characters."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidName",
+              "messageStrings": {
+                "issue": {
+                  "text": "Name isn't valid. '{0}' isn't recognized."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or correct the reference to the name that isn't valid."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidArgs-Func",
+              "messageStrings": {
+                "issue": {
+                  "text": "The function '{0}' has some invalid arguments."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrIncompatibleTypesForEquality-Left-Right",
+              "messageStrings": {
+                "issue": {
+                  "text": "Incompatible types for comparison. These types can't be compared: {0}, {1}."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "You might need to convert the value to be the same type, such as converting a date string (e.g., \"12/31/2018\") to a date value.",
+                  "If you’re comparing records or tables, the field or column types must match exactly."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidDot",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid use of '.'"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
             {
               "id": "acc-AccessibleLabelNeeded",
               "messageStrings": {
