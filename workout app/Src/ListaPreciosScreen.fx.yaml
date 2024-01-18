@@ -161,75 +161,87 @@ ListaPreciosScreen As screen:
                         X: =(Parent.TemplateWidth - Self.Width) / 2
                         ZIndex: =6
 
-                        conAddIcon As groupContainer.manualLayoutContainer:
-                            BorderColor: =RGBA(166, 166, 166, 1)
-                            BorderThickness: =2
-                            DropShadow: =DropShadow.None
-                            Height: =Self.Width
-                            RadiusBottomLeft: =100
-                            RadiusBottomRight: =100
-                            RadiusTopLeft: =100
-                            RadiusTopRight: =100
-                            Width: =60
-                            X: =Parent.Width - Self.Width - 20
-                            Y: =(Parent.Height - Self.Height) / 2
-                            ZIndex: =1
+                        Container2 As groupContainer.horizontalAutoLayoutContainer:
+                            Height: =Parent.Height
+                            LayoutAlignItems: =LayoutAlignItems.Stretch
+                            LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+                            LayoutMode: =LayoutMode.Auto
+                            Width: =Parent.Width
+                            ZIndex: =5
 
-                            iconAdd As icon.ChevronRight:
-                                AccessibleLabel: =Self.Tooltip
-                                BorderStyle: =BorderStyle.None
+                            conAddIcon As groupContainer.manualLayoutContainer:
+                                AlignInContainer: =AlignInContainer.SetByContainer
+                                BorderColor: =RGBA(166, 166, 166, 1)
                                 BorderThickness: =2
-                                Color: =RGBA(166, 166, 166, 1)
-                                Height: =Parent.Height
-                                Icon: =Icon.Add
-                                OnSelect: |-
-                                    =Patch(workout_lista_equipos, Defaults(workout_lista_equipos), {
-                                        Title: ThisItem.titulo,
-                                        precio: ThisItem.precio
-                                    });
-                                    
-                                    Set(gblTotal, 0);
-                                    Set(gblTotal, Sum(workout_lista_equipos, precio));
-                                PaddingBottom: =15
-                                PaddingLeft: =15
-                                PaddingRight: =15
-                                PaddingTop: =15
-                                Tooltip: ="View item details"
-                                Width: =Parent.Width
+                                DropShadow: =DropShadow.None
+                                FillPortions: =0
+                                Height: =60
+                                LayoutMinHeight: =10
+                                LayoutMinWidth: =250
+                                RadiusBottomLeft: =100
+                                RadiusBottomRight: =100
+                                RadiusTopLeft: =100
+                                RadiusTopRight: =100
+                                Width: =80
+                                X: =Parent.Width - Self.Width - 20
+                                Y: =(Parent.Height - Self.Height) / 2
                                 ZIndex: =1
 
-                        lblPrecio As label:
-                            Font: =Font.Lato
-                            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                            Height: =22
-                            PaddingBottom: =0
-                            PaddingLeft: =0
-                            PaddingRight: =0
-                            PaddingTop: =0
-                            Size: =If(App.Width > 1000, 16, 12)
-                            Text: |-
-                                =Text(Value(ThisItem.precio), "$ #,###")
-                            VerticalAlign: =VerticalAlign.Top
-                            Width: =If(App.Width > 600, Parent.Width * 0.6, 50)
-                            X: =lblTitulo.Width + 50
-                            Y: =(Parent.Height - Self.Height) / 2
-                            ZIndex: =3
+                                iconAdd As icon.ChevronRight:
+                                    AccessibleLabel: =Self.Tooltip
+                                    BorderStyle: =BorderStyle.None
+                                    BorderThickness: =2
+                                    Color: =RGBA(166, 166, 166, 1)
+                                    Height: =Parent.Height
+                                    Icon: =Icon.Add
+                                    OnSelect: |-
+                                        =Patch(workout_lista_equipos, Defaults(workout_lista_equipos), {
+                                            Title: ThisItem.titulo,
+                                            precio: ThisItem.precio
+                                        });
+                                        
+                                        Set(gblTotal, 0);
+                                        Set(gblTotal, Sum(workout_lista_equipos, precio));
+                                    PaddingBottom: =15
+                                    PaddingLeft: =15
+                                    PaddingRight: =15
+                                    PaddingTop: =15
+                                    Tooltip: ="View item details"
+                                    Width: =Parent.Width
+                                    ZIndex: =1
 
-                        lblTitulo As label:
-                            Font: =Font.Lato
-                            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                            Height: =26
-                            PaddingBottom: =0
-                            PaddingLeft: =0
-                            PaddingRight: =0
-                            PaddingTop: =0
-                            Size: =If(App.Width > 1000, 16, 12)
-                            Text: =Proper(ThisItem.titulo)
-                            VerticalAlign: =VerticalAlign.Top
-                            Width: =If(App.Width > 1000, Parent.Width * 0.4, Parent.Width * 0.2)
-                            X: =48
-                            Y: =(Parent.Height - Self.Height) / 2
-                            ZIndex: =4
+                            lblTitulo As label:
+                                Font: =Font.Lato
+                                FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                                Height: =25
+                                PaddingBottom: =0
+                                PaddingLeft: =0
+                                PaddingRight: =0
+                                PaddingTop: =0
+                                Size: =If(App.Width > 1000, 16, 12)
+                                Text: =Proper(ThisItem.titulo)
+                                VerticalAlign: =VerticalAlign.Top
+                                Width: =69
+                                X: =48
+                                Y: =(Parent.Height - Self.Height) / 2
+                                ZIndex: =2
+
+                            lblPrecio As label:
+                                Font: =Font.Lato
+                                FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                                Height: =24
+                                PaddingBottom: =0
+                                PaddingLeft: =0
+                                PaddingRight: =0
+                                PaddingTop: =0
+                                Size: =If(App.Width > 1000, 16, 12)
+                                Text: |-
+                                    =Text(Value(ThisItem.precio), "$ #,###")
+                                VerticalAlign: =VerticalAlign.Top
+                                Width: =113
+                                X: =573
+                                Y: =(Parent.Height - Self.Height) / 2
+                                ZIndex: =3
 
         conTotal_1 As groupContainer.manualLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
