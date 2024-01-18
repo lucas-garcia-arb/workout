@@ -35,43 +35,47 @@ ListaPreciosScreen As screen:
                 imgLogoArkano As image:
                     Height: =Parent.Height*0.98
                     Image: =arkano_software_logo
-                    OnSelect: =Navigate(ListaItemsSeleccionadosScreen, ScreenTransition.Cover)
                     Width: =Parent.Width*.8
                     X: =(Parent.Width - Self.Width) / 2
                     Y: =(Parent.Height - Self.Height) / 2
                     ZIndex: =1
 
-            conBuscar As groupContainer.manualLayoutContainer:
-                AlignInContainer: =AlignInContainer.SetByContainer
-                BorderColor: =RGBA(166, 166, 166, 1)
-                BorderThickness: =2
-                DropShadow: =DropShadow.None
-                Height: =70
-                LayoutMinHeight: =0
-                LayoutMinWidth: =0
-                RadiusBottomLeft: =100
-                RadiusBottomRight: =100
-                RadiusTopLeft: =100
-                RadiusTopRight: =100
-                Width: =1326
-                X: =13
-                Y: =14
+            conBuscar As groupContainer.horizontalAutoLayoutContainer:
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+                LayoutMinHeight: =10
+                LayoutMinWidth: =10
+                LayoutMode: =LayoutMode.Auto
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
                 ZIndex: =2
 
                 inpBuscar As text:
                     BorderStyle: =BorderStyle.None
                     Default: =""
+                    FillPortions: =1
                     Font: =Font.Lato
                     Height: =68
                     PaddingLeft: =30
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
                     Size: =20
-                    Width: =1178
+                    Width: =940
                     ZIndex: =1
 
                 conBuscarLogo As groupContainer.manualLayoutContainer:
+                    AlignInContainer: =AlignInContainer.SetByContainer
+                    DropShadow: =DropShadow.None
+                    FillPortions: =0
                     Height: =68
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =10
                     Width: =70
-                    X: =1178
+                    X: =940
                     ZIndex: =2
 
                     imgBuscarLogo As image:
@@ -83,7 +87,7 @@ ListaPreciosScreen As screen:
                                 "#A6A6A6"
                                 )
                             )
-                        Width: =Parent.Height * 0.7
+                        Width: =Parent.Height * 0.6
                         X: =(Parent.Width - Self.Width) / 2
                         Y: =(Parent.Height - Self.Height) / 2
                         ZIndex: =2
