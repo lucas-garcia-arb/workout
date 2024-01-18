@@ -138,46 +138,6 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 8,
-                  "charOffset": 51,
-                  "snippet": {
-                    "text": "gblTotal"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "ListaPreciosScreen",
-                "type": "ListaPreciosScreen.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.conAddIcon.iconAdd"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "gblTotal"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ListaPreciosScreen.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.conAddIcon.iconAdd.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ListaPreciosScreen.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.conAddIcon.iconAdd.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
                   "charLength": 21,
                   "charOffset": 95,
                   "snippet": {
@@ -1204,6 +1164,36 @@
               },
               "properties": {
                 "member": "gblItemSeleccionado",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 9
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.gblTotal"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.gblTotal",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "gblTotal",
                 "module": "App",
                 "type": "App"
               }
