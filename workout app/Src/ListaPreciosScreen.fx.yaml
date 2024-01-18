@@ -58,6 +58,7 @@ ListaPreciosScreen As screen:
                     FillPortions: =1
                     Font: =Font.Lato
                     Height: =68
+                    LayoutMinWidth: =200
                     PaddingLeft: =30
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
