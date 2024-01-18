@@ -210,8 +210,8 @@ ListaPreciosScreen As screen:
                             Text: |-
                                 =Text(Value(ThisItem.precio), "$ #,###")
                             VerticalAlign: =VerticalAlign.Top
-                            Width: =Parent.Width * 0.2
-                            X: =Parent.Width / 2
+                            Width: =If(App.Width > 1000, Parent.Width * 0.2, 50)
+                            X: =lblTitulo.Width + 50
                             Y: =(Parent.Height - Self.Height) / 2
                             ZIndex: =3
 
@@ -226,7 +226,7 @@ ListaPreciosScreen As screen:
                             Size: =If(App.Width > 1000, 16, 12)
                             Text: =Proper(ThisItem.titulo)
                             VerticalAlign: =VerticalAlign.Top
-                            Width: =Parent.Width * 0.4
+                            Width: =If(App.Width > 1000, Parent.Width * 0.4, Parent.Width * 0.2)
                             X: =48
                             Y: =(Parent.Height - Self.Height) / 2
                             ZIndex: =4
