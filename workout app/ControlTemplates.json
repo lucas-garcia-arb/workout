@@ -38,6 +38,46 @@
     "OverridableProperties": {},
     "Version": "1.6.0"
   },
+  "label": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/label",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "label",
+    "OverridableProperties": {},
+    "Version": "2.5.1"
+  },
+  "PowerBIIntegration": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "HostType": "Dynamic",
+    "Id": "http://microsoft.com/appmagic/hostcontrol",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "hostControl",
+    "OverridableProperties": {
+      "Data": {
+        "Type": {
+          "EnumString": "",
+          "Kind": "Table",
+          "Name": "Root",
+          "Type": []
+        },
+        "Version": "1.336"
+      }
+    },
+    "PCFDynamicSchemaForIRRetrieval": {},
+    "Version": "1.6.0"
+  },
   "screen": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
