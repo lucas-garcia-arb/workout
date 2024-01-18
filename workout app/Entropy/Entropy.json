@@ -51,7 +51,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/18/2024 21:07:30",
+  "HeaderLastSavedDateTimeUTC": "01/18/2024 21:07:36",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c262ae22-db6a-4d35-82ae-954b565d953c": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/shared-excelonlinebu-dd62666d-981d-4321-a9d0-0fb604784bc9\"",
@@ -68,8 +68,7 @@
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
-    "colCustomIcons": 4,
-    "colItemsSeleccionados": 3,
+    "colCustomIcons": 3,
     "CustomGallerySample": 2,
     "listaPrecios": 1,
     "workout_lista_equipos": 0

@@ -185,7 +185,6 @@ ListaPreciosScreen As screen:
                                 OnSelect: |-
                                     =Set(gblItemSeleccionado, ThisItem);
                                     Set(gblTotal, gblTotal + Value(ThisItem.precio));
-                                    Collect(colItemsSeleccionados, gblItemSeleccionado);
                                     Patch(workout_lista_equipos, Defaults(workout_lista_equipos), {
                                         Title: ThisItem.titulo,
                                         precio: ThisItem.precio
