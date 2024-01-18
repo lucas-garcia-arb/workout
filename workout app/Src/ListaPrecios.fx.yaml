@@ -8,7 +8,7 @@ ListaPrecios As screen:
         Width: =ListaPrecios.Width
         ZIndex: =2
 
-        Container1 As groupContainer.verticalAutoLayoutContainer:
+        vconListaPrecios As groupContainer.verticalAutoLayoutContainer:
             LayoutAlignItems: =LayoutAlignItems.Center
             LayoutDirection: =LayoutDirection.Vertical
             LayoutMinHeight: =100
@@ -17,8 +17,9 @@ ListaPrecios As screen:
             ZIndex: =2
 
             "glyPrecios As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
+                AlignInContainer: =AlignInContainer.SetByContainer
                 DelayItemLoading: =true
-                Height: =626
+                Height: =Parent.Height
                 Items: =listaPrecios
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data

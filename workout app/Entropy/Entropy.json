@@ -4,7 +4,6 @@
   "ControlUniqueIds": {
     "App": 1,
     "conListaPrecios": 6,
-    "Container1": 15,
     "galleryTemplate1": 17,
     "glyConListItem": 19,
     "glyPrecios": 16,
@@ -13,11 +12,12 @@
     "lblTitulo": 24,
     "ListaPrecios": 5,
     "NextArrow3": 26,
-    "PowerBIIntegration": 4
+    "PowerBIIntegration": 4,
+    "vconListaPrecios": 15
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/18/2024 14:58:21",
+  "HeaderLastSavedDateTimeUTC": "01/18/2024 14:59:47",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c262ae22-db6a-4d35-82ae-954b565d953c": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/shared-excelonlinebu-dd62666d-981d-4321-a9d0-0fb604784bc9\"",
@@ -46,7 +46,6 @@
   "OverridablePropertiesEntry": {
     "App": {},
     "conListaPrecios": {},
-    "Container1": {},
     "galleryTemplate1": {},
     "glyConListItem": {},
     "glyPrecios": {},
@@ -65,7 +64,8 @@
         },
         "Version": "1.336"
       }
-    }
+    },
+    "vconListaPrecios": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {
     "PowerBIIntegration": {}
@@ -74,7 +74,6 @@
   "PublishOrderIndices": {
     "App": 0,
     "conListaPrecios": 0,
-    "Container1": 1,
     "galleryTemplate1": 7,
     "glyConListItem": 3,
     "glyPrecios": 2,
@@ -83,7 +82,8 @@
     "lblTitulo": 5,
     "ListaPrecios": 0,
     "NextArrow3": 4,
-    "PowerBIIntegration": 0
+    "PowerBIIntegration": 0,
+    "vconListaPrecios": 1
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0
