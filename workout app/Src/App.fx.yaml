@@ -1,6 +1,12 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: =Collect(colListaPrecios, ListaPrecios)
+    OnStart: |-
+        =ForAll(listaPrecios As Productos, 
+            Collect(coleccion, {
+                titulo: Productos.titulo,
+                precio: Productos.precio
+            }
+        )
     SizeBreakpoints: =[600, 800, 1200, 1400]
     Theme: =PowerAppsTheme
 
