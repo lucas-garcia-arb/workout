@@ -8,83 +8,78 @@ ListaPrecios As screen:
         Width: =ListaPrecios.Width
         ZIndex: =2
 
-        "glyPrecios As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
-            AlignInContainer: =AlignInContainer.SetByContainer
-            DelayItemLoading: =true
-            Height: =626
-            Items: =listaPrecios
-            Layout: =Layout.Vertical
-            LayoutMinHeight: =287
-            LayoutMinWidth: =320
-            LoadingSpinner: =LoadingSpinner.Data
-            TemplatePadding: =0
-            TemplateSize: =60
-            Width: =378
-            X: =40
-            Y: =140
-            ZIndex: =1
+        Container1 As groupContainer.verticalAutoLayoutContainer:
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =2
 
-            Title3 As label:
-                FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                Height: =Self.Size * 1.8
-                OnSelect: =Select(Parent)
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =ThisItem.titulo
-                VerticalAlign: =VerticalAlign.Top
-                Width: =Parent.TemplateWidth - 86
-                X: =1
-                Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle2.Size * 1.8)) / 2
+            "glyPrecios As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DelayItemLoading: =true
+                Height: =626
+                Items: =listaPrecios
+                Layout: =Layout.Vertical
+                LayoutMinHeight: =100
+                LayoutMinWidth: =320
+                LoadingSpinner: =LoadingSpinner.Data
+                TemplatePadding: =0
+                TemplateSize: =60
+                Width: =Parent.Width * 0.8
+                X: =40
+                Y: =140
                 ZIndex: =1
 
-            Subtitle2 As label:
-                FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-                Height: =24
-                OnSelect: =Select(Parent)
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =ThisItem.precio
-                VerticalAlign: =VerticalAlign.Top
-                Width: =294
-                Y: =29
-                ZIndex: =2
+                glyConListItem As groupContainer.manualLayoutContainer:
+                    Height: =60
+                    Width: =glyPrecios.TemplateWidth *0.9
+                    X: =(Parent.TemplateWidth - Self.Width) / 2
+                    ZIndex: =6
 
-            NextArrow3 As icon.ChevronRight:
-                AccessibleLabel: =Self.Tooltip
-                Color: =RGBA(166, 166, 166, 1)
-                Height: =50
-                Icon: =Icon.ChevronRight
-                OnSelect: =Select(Parent)
-                PaddingBottom: =16
-                PaddingLeft: =16
-                PaddingRight: =16
-                PaddingTop: =16
-                Tooltip: ="View item details"
-                Width: =50
-                Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-                ZIndex: =3
+                    Title3 As label:
+                        FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                        Height: =Self.Size * 1.8
+                        OnSelect: =Select(Parent)
+                        PaddingBottom: =0
+                        PaddingLeft: =0
+                        PaddingRight: =0
+                        PaddingTop: =0
+                        Text: =ThisItem.titulo
+                        VerticalAlign: =VerticalAlign.Top
+                        Width: =glyPrecios.TemplateWidth - 86
+                        X: =1
+                        Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle2.Size * 1.8)) / 2
+                        ZIndex: =1
 
-            Separator3 As rectangle:
-                Height: =8
-                OnSelect: =Select(Parent)
-                Width: =Parent.TemplateWidth
-                Y: =Parent.TemplateHeight - Self.Height
-                ZIndex: =4
+                    Subtitle2 As label:
+                        FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                        Height: =24
+                        OnSelect: =Select(Parent)
+                        PaddingBottom: =0
+                        PaddingLeft: =0
+                        PaddingRight: =0
+                        PaddingTop: =0
+                        Text: =ThisItem.precio
+                        VerticalAlign: =VerticalAlign.Top
+                        Width: =294
+                        Y: =10
+                        ZIndex: =2
 
-            Rectangle3 As rectangle:
-                Height: =Parent.TemplateHeight - Separator3.Height
-                OnSelect: =Select(Parent)
-                Visible: =ThisItem.IsSelected
-                Width: =1
-                ZIndex: =5
-
-            Container3 As groupContainer.manualLayoutContainer:
-                Height: =60
-                Width: =643
-                X: =40
-                ZIndex: =6
+                    NextArrow3 As icon.ChevronRight:
+                        AccessibleLabel: =Self.Tooltip
+                        Color: =RGBA(166, 166, 166, 1)
+                        Height: =50
+                        Icon: =Icon.ChevronRight
+                        OnSelect: =Select(Parent)
+                        PaddingBottom: =16
+                        PaddingLeft: =16
+                        PaddingRight: =16
+                        PaddingTop: =16
+                        Tooltip: ="View item details"
+                        Width: =50
+                        X: =Parent.Width - Self.Width - 10
+                        Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+                        ZIndex: =3
 

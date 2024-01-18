@@ -3,22 +3,21 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "conListaPrecios": 24,
-    "Container3": 33,
-    "galleryTemplate1": 26,
-    "glyPrecios": 25,
+    "conListaPrecios": 6,
+    "Container1": 15,
+    "galleryTemplate1": 17,
+    "glyConListItem": 19,
+    "glyPrecios": 16,
     "Host": 3,
     "ListaPrecios": 5,
-    "NextArrow3": 28,
+    "NextArrow3": 26,
     "PowerBIIntegration": 4,
-    "Rectangle3": 27,
-    "Separator3": 31,
-    "Subtitle2": 30,
-    "Title3": 29
+    "Subtitle2": 25,
+    "Title3": 24
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/18/2024 14:11:03",
+  "HeaderLastSavedDateTimeUTC": "01/18/2024 14:15:42",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c262ae22-db6a-4d35-82ae-954b565d953c": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/shared-excelonlinebu-dd62666d-981d-4321-a9d0-0fb604784bc9\"",
@@ -40,15 +39,15 @@
   "OrderXMLTemplate": {
     "gallery": 1,
     "groupContainer": 0,
-    "icon": 3,
-    "label": 4,
-    "rectangle": 2
+    "icon": 2,
+    "label": 3
   },
   "OverridablePropertiesEntry": {
     "App": {},
     "conListaPrecios": {},
-    "Container3": {},
+    "Container1": {},
     "galleryTemplate1": {},
+    "glyConListItem": {},
     "glyPrecios": {},
     "Host": {},
     "ListaPrecios": {},
@@ -64,8 +63,6 @@
         "Version": "1.336"
       }
     },
-    "Rectangle3": {},
-    "Separator3": {},
     "Subtitle2": {},
     "Title3": {}
   },
@@ -76,15 +73,14 @@
   "PublishOrderIndices": {
     "App": 0,
     "conListaPrecios": 0,
-    "Container3": 4,
+    "Container1": 0,
     "galleryTemplate1": 2,
+    "glyConListItem": 4,
     "glyPrecios": 1,
     "Host": 0,
     "ListaPrecios": 0,
     "NextArrow3": 5,
     "PowerBIIntegration": 0,
-    "Rectangle3": 3,
-    "Separator3": 8,
     "Subtitle2": 7,
     "Title3": 6
   },
@@ -94,17 +90,18 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0596438,
+    "AnalysisLoadTime": 0.1138043,
     "ControlCount": {
-      "gallery": 1,
-      "galleryTemplate": 1,
+      "gallery": 2,
+      "galleryTemplate": 2,
+      "groupContainer": 3,
       "hostControl": 1,
-      "icon": 1,
-      "label": 3,
-      "rectangle": 2,
+      "icon": 3,
+      "label": 6,
+      "rectangle": 4,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.5567557
+    "DeserializationLoadTime": 0.9444538
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
