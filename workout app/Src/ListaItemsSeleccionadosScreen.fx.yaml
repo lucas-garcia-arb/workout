@@ -7,11 +7,13 @@ ListaItemsSeleccionadosScreen As screen:
         Width: =Parent.Width
         ZIndex: =4
 
-        Container2_1 As groupContainer.horizontalAutoLayoutContainer:
+        conHeaderLISS As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             FillPortions: =0
             Height: =108
+            LayoutAlignItems: =LayoutAlignItems.Stretch
             LayoutGap: =10
+            LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
@@ -22,7 +24,8 @@ ListaItemsSeleccionadosScreen As screen:
             Width: =Parent.Width
             ZIndex: =1
 
-            conCarrito_4 As groupContainer.manualLayoutContainer:
+            conBack As groupContainer.manualLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.None
                 FillPortions: =0
                 LayoutMinHeight: =0
@@ -30,7 +33,7 @@ ListaItemsSeleccionadosScreen As screen:
                 Width: =Self.Height
                 ZIndex: =1
 
-                imgList_2 As image:
+                imgBack As image:
                     Height: =Parent.Height*0.98
                     Image: |-
                         ="data:image/svg+xml;utf8, "& EncodeUrl(
@@ -45,7 +48,8 @@ ListaItemsSeleccionadosScreen As screen:
                     Y: =(Parent.Height - Self.Height) / 2
                     ZIndex: =1
 
-            conBuscar_1 As groupContainer.manualLayoutContainer:
+            conBuscarLISS As groupContainer.manualLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 BorderColor: =RGBA(166, 166, 166, 1)
                 BorderThickness: =2
                 DropShadow: =DropShadow.None
@@ -92,6 +96,7 @@ ListaItemsSeleccionadosScreen As screen:
                         ZIndex: =2
 
             conCarrito_5 As groupContainer.manualLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.None
                 FillPortions: =0
                 LayoutMinHeight: =0
@@ -116,7 +121,7 @@ ListaItemsSeleccionadosScreen As screen:
                     Y: =(Parent.Height - Self.Height) / 2
                     ZIndex: =1
 
-        conListaPrecios_1 As groupContainer.horizontalAutoLayoutContainer:
+        conMainLISS As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.None
             Height: =660
@@ -131,11 +136,13 @@ ListaItemsSeleccionadosScreen As screen:
             ZIndex: =2
 
             vconListaPrecios_1 As groupContainer.verticalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 LayoutAlignItems: =LayoutAlignItems.Center
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMinHeight: =100
                 LayoutMinWidth: =250
                 LayoutMode: =LayoutMode.Auto
+                Width: =Parent.Width
                 ZIndex: =2
 
                 "glyPrecios_1 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
@@ -228,6 +235,7 @@ ListaItemsSeleccionadosScreen As screen:
                             ZIndex: =4
 
             conTotal As groupContainer.manualLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 FillPortions: =0
                 Height: =70
                 LayoutMinHeight: =100
