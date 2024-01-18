@@ -1,6 +1,6 @@
 ListaItemsSeleccionadosScreen As screen:
 
-    Container5 As groupContainer.verticalAutoLayoutContainer:
+    conListaItems As groupContainer.verticalAutoLayoutContainer:
         Height: =App.Height
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
@@ -8,6 +8,7 @@ ListaItemsSeleccionadosScreen As screen:
         ZIndex: =4
 
         Container2_1 As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             FillPortions: =0
             Height: =108
             LayoutGap: =10
@@ -116,6 +117,7 @@ ListaItemsSeleccionadosScreen As screen:
                     ZIndex: =1
 
         conListaPrecios_1 As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
             DropShadow: =DropShadow.None
             Height: =660
             LayoutAlignItems: =LayoutAlignItems.Center

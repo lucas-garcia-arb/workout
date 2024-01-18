@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1.TabIndex"
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1.TabIndex",
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.Container5.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1"
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1"
               }
             }
           ],
@@ -344,19 +344,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.Container2_1.conCarrito_4.imgList_2.TabIndex"
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.Container2_1.conCarrito_4.imgList_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.Container2_1.conCarrito_4.imgList_2.TabIndex",
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.Container2_1.conCarrito_4.imgList_2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.Container5.Container2_1.conCarrito_4.imgList_2"
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.Container2_1.conCarrito_4.imgList_2"
               }
             }
           ],
@@ -374,19 +374,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.Container2_1.conCarrito_4.imgList_2.AccessibleLabel"
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.Container2_1.conCarrito_4.imgList_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.Container2_1.conCarrito_4.imgList_2.AccessibleLabel",
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.Container2_1.conCarrito_4.imgList_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.Container5.Container2_1.conCarrito_4.imgList_2"
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.Container2_1.conCarrito_4.imgList_2"
               }
             }
           ],
@@ -404,19 +404,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.Container2_1.conCarrito_5.imgList_3.TabIndex"
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.Container2_1.conCarrito_5.imgList_3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.Container2_1.conCarrito_5.imgList_3.TabIndex",
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.Container2_1.conCarrito_5.imgList_3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.Container5.Container2_1.conCarrito_5.imgList_3"
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.Container2_1.conCarrito_5.imgList_3"
               }
             }
           ],
@@ -434,19 +434,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.Container2_1.conCarrito_5.imgList_3.AccessibleLabel"
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.Container2_1.conCarrito_5.imgList_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.Container2_1.conCarrito_5.imgList_3.AccessibleLabel",
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.Container2_1.conCarrito_5.imgList_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.Container5.Container2_1.conCarrito_5.imgList_3"
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.Container2_1.conCarrito_5.imgList_3"
               }
             }
           ],
@@ -464,19 +464,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.Container2_1.conBuscar_1.inpBuscarItems.AccessibleLabel"
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.Container2_1.conBuscar_1.inpBuscarItems.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.Container2_1.conBuscar_1.inpBuscarItems.AccessibleLabel",
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.Container2_1.conBuscar_1.inpBuscarItems.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.Container5.Container2_1.conBuscar_1.inpBuscarItems"
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.Container2_1.conBuscar_1.inpBuscarItems"
               }
             }
           ],
@@ -494,19 +494,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1.FocusedBorderThickness"
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1.FocusedBorderThickness",
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.Container5.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1"
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblPrecio_1"
               }
             }
           ],
@@ -524,19 +524,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1.TabIndex"
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1.TabIndex",
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.Container5.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1"
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1"
               }
             }
           ],
@@ -554,19 +554,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1.FocusedBorderThickness"
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1.FocusedBorderThickness",
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.Container5.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1"
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.lblTitulo_1"
               }
             }
           ],
@@ -584,19 +584,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.conAddIcon_1.iconAdd_1.TabIndex"
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.conAddIcon_1.iconAdd_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.conAddIcon_1.iconAdd_1.TabIndex",
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.conAddIcon_1.iconAdd_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.Container5.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.conAddIcon_1.iconAdd_1"
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.glyConListItem_1.conAddIcon_1.iconAdd_1"
               }
             }
           ],
@@ -614,19 +614,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.TabIndex"
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.TabIndex",
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.Container5.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1"
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1"
               }
             }
           ],
@@ -644,19 +644,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.AccessibleLabel"
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.Container5.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.AccessibleLabel",
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.Container5.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1"
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.conListaPrecios_1.vconListaPrecios_1.glyPrecios_1"
               }
             }
           ],
