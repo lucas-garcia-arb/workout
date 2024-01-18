@@ -25,32 +25,46 @@ ListaPrecios As screen:
                 LoadingSpinner: =LoadingSpinner.Data
                 ShowScrollbar: =false
                 TemplatePadding: =10
-                TemplateSize: =60
+                TemplateSize: =80
                 Width: =Parent.Width * 0.8
                 X: =40
                 Y: =140
                 ZIndex: =1
 
                 glyConListItem As groupContainer.manualLayoutContainer:
-                    Height: =60
+                    Height: =glyPrecios.TemplateHeight
                     Width: =glyPrecios.TemplateWidth *0.9
                     X: =(Parent.TemplateWidth - Self.Width) / 2
                     ZIndex: =6
 
-                    NextArrow3 As icon.ChevronRight:
-                        AccessibleLabel: =Self.Tooltip
-                        Color: =RGBA(166, 166, 166, 1)
-                        Height: =50
-                        Icon: =Icon.ChevronRight
-                        PaddingBottom: =16
-                        PaddingLeft: =16
-                        PaddingRight: =16
-                        PaddingTop: =16
-                        Tooltip: ="View item details"
-                        Width: =50
-                        X: =Parent.Width - Self.Width - 10
+                    conAddIcon As groupContainer.manualLayoutContainer:
+                        BorderColor: =RGBA(166, 166, 166, 1)
+                        BorderThickness: =2
+                        DropShadow: =DropShadow.None
+                        Height: =Self.Width
+                        RadiusBottomLeft: =100
+                        RadiusBottomRight: =100
+                        RadiusTopLeft: =100
+                        RadiusTopRight: =100
+                        Width: =60
+                        X: =Parent.Width - Self.Width - 20
                         Y: =(Parent.Height - Self.Height) / 2
                         ZIndex: =1
+
+                        iconAdd As icon.ChevronRight:
+                            AccessibleLabel: =Self.Tooltip
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(166, 166, 166, 1)
+                            Height: =Parent.Height
+                            Icon: =Icon.Add
+                            PaddingBottom: =15
+                            PaddingLeft: =15
+                            PaddingRight: =15
+                            PaddingTop: =15
+                            Tooltip: ="View item details"
+                            Width: =Parent.Width
+                            ZIndex: =1
 
                     lblPrecio As label:
                         Font: =Font.Lato
@@ -66,7 +80,7 @@ ListaPrecios As screen:
                         Width: =Parent.Width * 0.2
                         X: =lblTitulo.Width + lblTitulo.X
                         Y: =21
-                        ZIndex: =2
+                        ZIndex: =3
 
                     lblTitulo As label:
                         Font: =Font.Lato
@@ -82,5 +96,5 @@ ListaPrecios As screen:
                         Width: =Parent.Width * 0.7
                         X: =48
                         Y: =(Parent.Height - Self.Height) / 2
-                        ZIndex: =3
+                        ZIndex: =4
 

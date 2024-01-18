@@ -3,21 +3,22 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
+    "conAddIcon": 27,
     "conListaPrecios": 6,
     "galleryTemplate1": 17,
     "glyConListItem": 19,
     "glyPrecios": 16,
     "Host": 3,
+    "iconAdd": 28,
     "lblPrecio": 25,
     "lblTitulo": 24,
     "ListaPrecios": 5,
-    "NextArrow3": 26,
     "PowerBIIntegration": 4,
     "vconListaPrecios": 15
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/18/2024 14:59:47",
+  "HeaderLastSavedDateTimeUTC": "01/18/2024 15:09:40",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c262ae22-db6a-4d35-82ae-954b565d953c": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/shared-excelonlinebu-dd62666d-981d-4321-a9d0-0fb604784bc9\"",
@@ -45,15 +46,16 @@
   },
   "OverridablePropertiesEntry": {
     "App": {},
+    "conAddIcon": {},
     "conListaPrecios": {},
     "galleryTemplate1": {},
     "glyConListItem": {},
     "glyPrecios": {},
     "Host": {},
+    "iconAdd": {},
     "lblPrecio": {},
     "lblTitulo": {},
     "ListaPrecios": {},
-    "NextArrow3": {},
     "PowerBIIntegration": {
       "Data": {
         "Type": {
@@ -73,15 +75,16 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
+    "conAddIcon": 4,
     "conListaPrecios": 0,
-    "galleryTemplate1": 7,
+    "galleryTemplate1": 8,
     "glyConListItem": 3,
     "glyPrecios": 2,
     "Host": 0,
+    "iconAdd": 5,
     "lblPrecio": 6,
-    "lblTitulo": 5,
+    "lblTitulo": 7,
     "ListaPrecios": 0,
-    "NextArrow3": 4,
     "PowerBIIntegration": 0,
     "vconListaPrecios": 1
   },
@@ -97,7 +100,7 @@
       "galleryTemplate": 2,
       "groupContainer": 3,
       "hostControl": 1,
-      "icon": 3,
+      "icon": 4,
       "label": 6,
       "rectangle": 4,
       "screen": 1

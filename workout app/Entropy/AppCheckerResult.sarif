@@ -194,19 +194,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.NextArrow3.TabIndex"
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.conAddIcon.iconAdd.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.NextArrow3.TabIndex",
+                  "fullyQualifiedName": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.conAddIcon.iconAdd.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ListaPrecios",
-                "type": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.NextArrow3"
+                "type": "ListaPrecios.conListaPrecios.vconListaPrecios.glyPrecios.glyConListItem.conAddIcon.iconAdd"
               }
             }
           ],
