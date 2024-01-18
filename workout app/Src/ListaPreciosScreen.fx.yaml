@@ -263,7 +263,7 @@ ListaPreciosScreen As screen:
                 Align: =Align.Center
                 Font: =Font.'Lato Black'
                 Height: =70
-                Size: =20
+                Size: =If(App.Width > 1000, 20, 14)
                 Text: |-
                     ="Total: " & Text(Value(gblTotal), "$ #,###")
                 Width: =Parent.Width * 0.5
@@ -274,7 +274,7 @@ ListaPreciosScreen As screen:
                 Align: =Align.Center
                 Font: =Font.'Lato Black'
                 Height: =70
-                Size: =20
+                Size: =If(App.Width > 1000, 20, 14)
                 Text: |-
                     ="Items: " & CountRows(workout_lista_equipos)
                 Width: =Parent.Width * 0.5

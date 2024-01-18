@@ -273,7 +273,7 @@ ListaItemsSeleccionadosScreen As screen:
                     Align: =Align.Center
                     Font: =Font.'Lato Black'
                     Height: =70
-                    Size: =20
+                    Size: =If(App.Width > 1000, 20, 14)
                     Text: |-
                         ="Total: " & Text(Value(gblTotal), "$ #,###")
                     Width: =Parent.Width * 0.5
@@ -284,42 +284,9 @@ ListaItemsSeleccionadosScreen As screen:
                     Align: =Align.Center
                     Font: =Font.'Lato Black'
                     Height: =70
-                    Size: =20
+                    Size: =If(App.Width > 1000, 20, 14)
                     Text: |-
                         ="Items: " & CountRows(workout_lista_equipos)
                     Width: =Parent.Width * 0.5
                     ZIndex: =2
-
-    conAddIcon_1 As groupContainer.manualLayoutContainer:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        BorderThickness: =2
-        DropShadow: =DropShadow.None
-        Height: =Self.Width
-        RadiusBottomLeft: =100
-        RadiusBottomRight: =100
-        RadiusTopLeft: =100
-        RadiusTopRight: =100
-        Width: =60
-        X: =Parent.Width - Self.Width - 20
-        Y: =(Parent.Height - Self.Height) / 2
-        ZIndex: =5
-
-        iconAdd_1 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(255, 0, 0, 1)
-            Height: =Parent.Height
-            Icon: =Icon.Trash
-            OnSelect: |-
-                =Set(gblTotal, gblTotal - Value(ThisItem.precio));
-                Remove(workout_lista_equipos, ThisItem);
-            PaddingBottom: =15
-            PaddingLeft: =15
-            PaddingRight: =15
-            PaddingTop: =15
-            Tooltip: ="View item details"
-            Width: =Parent.Width
-            ZIndex: =1
 
