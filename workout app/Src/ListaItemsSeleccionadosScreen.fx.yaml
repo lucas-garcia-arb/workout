@@ -122,7 +122,7 @@ ListaItemsSeleccionadosScreen As screen:
                 Height: =70
                 Size: =20
                 Text: |-
-                    ="Total" & Text(Value(gblTotal), "$ #,###")
+                    ="Total: " & Text(Value(gblTotal), "$ #,###")
                 Width: =Parent.Width * 0.5
                 X: =Parent.Width - Self.Width
                 ZIndex: =1
