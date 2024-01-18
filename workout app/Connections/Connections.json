@@ -1,4 +1,26 @@
 {
+  "c262ae22-db6a-4d35-82ae-954b565d953c": {
+    "connectionRef": {
+      "displayName": "Excel Online (Business)",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1658/1.0.1658.3452/excelonlinebusiness/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_excelonlinebusiness"
+    },
+    "datasets": {
+      "me,b%2521qSaTzrb9zEq7ZNz0YIIOZI48d11TsdhOgiIuFlceUIKkTvmplvpORJvsriXKbCbl,01VKTE67FK76BCTN3WA5CIPLQOA3VKNRAW": {
+        "dataSources": {
+          "listaPrecios": {
+            "tableName": "{0AE4389D-7D94-4F5B-8A8C-F7A8E564A69D}"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "listaPrecios"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "c262ae22-db6a-4d35-82ae-954b565d953c"
+  },
   "f275d17e-b234-4fbf-ad0c-e4fd8d7ed5ac": {
     "appActions": [
       "providers/PowerPlatform.Governance/Operations/Read",

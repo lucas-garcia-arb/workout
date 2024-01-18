@@ -3,15 +3,23 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
+    "Gallery1": 7,
+    "galleryTemplate1": 8,
     "Host": 3,
+    "NextArrow3": 21,
     "PowerBIIntegration": 4,
-    "Screen1": 5
+    "Rectangle3": 23,
+    "Screen1": 5,
+    "Separator3": 22,
+    "Subtitle2": 20,
+    "Title3": 19
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/18/2024 13:58:35",
+  "HeaderLastSavedDateTimeUTC": "01/18/2024 14:02:45",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
+    "c262ae22-db6a-4d35-82ae-954b565d953c": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/shared-excelonlinebu-dd62666d-981d-4321-a9d0-0fb604784bc9\"",
     "f275d17e-b234-4fbf-ad0c-e4fd8d7ed5ac": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/803695092953410791be6d34926fd574\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
@@ -20,15 +28,25 @@
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
-    "csv_workout_files": 0
+    "csv_workout_files": 0,
+    "CustomGallerySample": 2,
+    "listaPrecios": 1
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
+  "OrderXMLTemplate": {
+    "gallery": 0,
+    "icon": 2,
+    "label": 3,
+    "rectangle": 1
+  },
   "OverridablePropertiesEntry": {
     "App": {},
+    "Gallery1": {},
+    "galleryTemplate1": {},
     "Host": {},
+    "NextArrow3": {},
     "PowerBIIntegration": {
       "Data": {
         "Type": {
@@ -40,7 +58,11 @@
         "Version": "1.336"
       }
     },
-    "Screen1": {}
+    "Rectangle3": {},
+    "Screen1": {},
+    "Separator3": {},
+    "Subtitle2": {},
+    "Title3": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {
     "PowerBIIntegration": {}
@@ -48,11 +70,20 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
+    "Gallery1": 0,
+    "galleryTemplate1": 1,
     "Host": 0,
+    "NextArrow3": 3,
     "PowerBIIntegration": 0,
-    "Screen1": 0
+    "Rectangle3": 2,
+    "Screen1": 0,
+    "Separator3": 6,
+    "Subtitle2": 5,
+    "Title3": 4
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
