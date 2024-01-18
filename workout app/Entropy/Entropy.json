@@ -4,13 +4,12 @@
   "ControlUniqueIds": {
     "App": 1,
     "Host": 3,
-    "Label1": 6,
-    "PowerBIIntegration": 5,
-    "Screen1": 4
+    "PowerBIIntegration": 4,
+    "Screen1": 5
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/18/2024 13:26:49",
+  "HeaderLastSavedDateTimeUTC": "01/18/2024 13:58:35",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "f275d17e-b234-4fbf-ad0c-e4fd8d7ed5ac": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/803695092953410791be6d34926fd574\""
@@ -26,13 +25,10 @@
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "label": 0
-  },
+  "OrderXMLTemplate": {},
   "OverridablePropertiesEntry": {
     "App": {},
     "Host": {},
-    "Label1": {},
     "PowerBIIntegration": {
       "Data": {
         "Type": {
@@ -53,7 +49,6 @@
   "PublishOrderIndices": {
     "App": 0,
     "Host": 0,
-    "Label1": 0,
     "PowerBIIntegration": 0,
     "Screen1": 0
   },
@@ -61,11 +56,13 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.036896,
+    "AnalysisLoadTime": 0.0596438,
     "ControlCount": {
+      "hostControl": 1,
+      "label": 1,
       "screen": 1
     },
-    "DeserializationLoadTime": 1.297098
+    "DeserializationLoadTime": 0.5567557
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

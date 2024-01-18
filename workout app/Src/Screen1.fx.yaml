@@ -1,10 +1,2 @@
 Screen1 As screen:
 
-    Label1 As label:
-        Height: =96
-        Text: ="Hola"
-        Width: =493
-        X: =386
-        Y: =74
-        ZIndex: =1
-
