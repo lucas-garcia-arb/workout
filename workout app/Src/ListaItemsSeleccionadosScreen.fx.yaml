@@ -120,7 +120,7 @@ ListaItemsSeleccionadosScreen As screen:
                             )
                         )
                     OnSelect: |-
-                        =RemoveIf(workout_lista_equipos, Value(precio) > 1);
+                        =RemoveIf(workout_lista_equipos, Value(precio) > -1);
                         Set(gblTotal, 0);
                     Width: =Parent.Width*.8
                     X: =(Parent.Width - Self.Width) / 2
