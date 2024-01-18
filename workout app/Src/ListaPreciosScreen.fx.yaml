@@ -183,12 +183,13 @@ ListaPreciosScreen As screen:
                                 Height: =Parent.Height
                                 Icon: =Icon.Add
                                 OnSelect: |-
-                                    =Set(gblItemSeleccionado, ThisItem);
-                                    Set(gblTotal, gblTotal + Value(ThisItem.precio));
-                                    Patch(workout_lista_equipos, Defaults(workout_lista_equipos), {
+                                    =Patch(workout_lista_equipos, Defaults(workout_lista_equipos), {
                                         Title: ThisItem.titulo,
                                         precio: ThisItem.precio
-                                    })
+                                    });
+                                    
+                                    Set(gblTotal, 0);
+                                    Set(gblTotal, Sum(workout_lista_equipos, precio));
                                 PaddingBottom: =15
                                 PaddingLeft: =15
                                 PaddingRight: =15
