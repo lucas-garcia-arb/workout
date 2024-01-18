@@ -57,9 +57,10 @@ ListaItemsSeleccionadosScreen As screen:
 
                         iconAdd_1 As icon.ChevronRight:
                             AccessibleLabel: =Self.Tooltip
+                            BorderColor: =RGBA(0, 0, 0, 0)
                             BorderStyle: =BorderStyle.None
                             BorderThickness: =2
-                            Color: =RGBA(166, 166, 166, 1)
+                            Color: =RGBA(255, 0, 0, 1)
                             Height: =Parent.Height
                             Icon: =Icon.Trash
                             OnSelect: =Remove(colItemsSeleccionados, ThisItem);
@@ -148,7 +149,7 @@ ListaItemsSeleccionadosScreen As screen:
                         "#A6A6A6"
                         )
                     )
-                OnSelect: =Navigate(ListaItemsSeleccionadosScreen, ScreenTransition.Cover)
+                OnSelect: =Navigate(ListaPreciosScreen, ScreenTransition.UnCover)
                 Width: =Parent.Width*.8
                 X: =(Parent.Width - Self.Width) / 2
                 Y: =(Parent.Height - Self.Height) / 2
