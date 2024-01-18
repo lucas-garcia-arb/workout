@@ -1,7 +1,7 @@
 ListaItemsSeleccionadosScreen As screen:
 
     Container5 As groupContainer.verticalAutoLayoutContainer:
-        Height: =768
+        Height: =App.Height
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
         Width: =Parent.Width
