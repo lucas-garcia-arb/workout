@@ -267,7 +267,7 @@ ListaItemsSeleccionadosScreen As screen:
                     Height: =70
                     Size: =20
                     Text: |-
-                        ="Items: " & CountRows(workout_lista_equipos)
+                        ="Items: " & Text(CountRows(workout_lista_equipos))
                     Width: =Parent.Width * 0.5
                     ZIndex: =2
 

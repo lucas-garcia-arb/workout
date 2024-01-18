@@ -301,7 +301,7 @@
                 },
                 "region": {
                   "charLength": 32,
-                  "charOffset": 12,
+                  "charOffset": 17,
                   "snippet": {
                     "text": "CountRows(workout_lista_equipos)"
                   }
