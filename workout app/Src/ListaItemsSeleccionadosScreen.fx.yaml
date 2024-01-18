@@ -129,7 +129,7 @@ ListaItemsSeleccionadosScreen As screen:
         PaddingLeft: =20
         PaddingRight: =20
         PaddingTop: =20
-        Width: =1366
+        Width: =ListaItemsSeleccionadosScreen.Width
         ZIndex: =3
 
         conCarrito_4 As groupContainer.manualLayoutContainer:
