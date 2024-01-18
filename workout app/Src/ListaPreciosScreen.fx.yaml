@@ -142,21 +142,25 @@ ListaPreciosScreen As screen:
                 Width: =1253
                 ZIndex: =1
 
-            iconBuscar As icon.ChevronRight:
-                AccessibleLabel: =Self.Tooltip
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(166, 166, 166, 1)
-                Height: =Parent.Height
-                Icon: =Icon.Search
-                PaddingBottom: =15
-                PaddingLeft: =15
-                PaddingRight: =15
-                PaddingTop: =15
-                Tooltip: ="View item details"
-                Width: =Parent.Height
-                X: =1190
+            conCarrito_1 As groupContainer.manualLayoutContainer:
+                Height: =68
+                Width: =80
+                X: =1178
                 ZIndex: =2
+
+                iconBuscar As image:
+                    Height: =Self.Width
+                    Image: |-
+                        ="data:image/svg+xml;utf8, "& EncodeUrl(
+                            Substitute(LookUp(colCustomIcons, IconName = "SearchIcon").IconData,
+                            "currentColor",
+                            "#A6A6A6"
+                            )
+                        )
+                    Width: =Parent.Height * 0.7
+                    X: =(Parent.Width - Self.Width) / 2
+                    Y: =(Parent.Height - Self.Height) / 2
+                    ZIndex: =2
 
         conCarrito As groupContainer.manualLayoutContainer:
             FillPortions: =0
