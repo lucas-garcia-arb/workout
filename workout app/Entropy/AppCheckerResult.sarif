@@ -174,6 +174,46 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.conTotal_1.lblTotal_2.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.conTotal_1.lblTotal_2.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 32,
+                  "charOffset": 12,
+                  "snippet": {
+                    "text": "CountRows(workout_lista_equipos)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "ListaPreciosScreen",
+                "type": "ListaPreciosScreen.conListaScreen.conTotal_1.lblTotal_2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "CountRows"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-SuggestRemoteExecutionHint-OpNotSupportedByService",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "ListaPreciosScreen.conListaScreen.conHeaderLPS.conLogo.imgLogoArkano.AccessibleLabel"
                 }
               ],
