@@ -170,8 +170,9 @@ ListaPreciosScreen As screen:
                 Image: |-
                     ="data:image/svg+xml;utf8, "& EncodeUrl(
                         Substitute(LookUp(colCustomIcons, IconName = "ListIcon").IconData,
-                        "CurrentColor",
+                        "currentColor",
                         "grey"
+                        )
                     )
                 Width: =Parent.Width
                 ZIndex: =1
