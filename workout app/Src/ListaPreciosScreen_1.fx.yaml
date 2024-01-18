@@ -1,0 +1,147 @@
+ListaPreciosScreen_1 As screen:
+
+    conListaPrecios_1 As groupContainer.horizontalAutoLayoutContainer:
+        DropShadow: =DropShadow.None
+        Height: =639
+        LayoutAlignItems: =LayoutAlignItems.Center
+        LayoutJustifyContent: =LayoutJustifyContent.Center
+        LayoutMode: =LayoutMode.Auto
+        Width: =ListaPreciosScreen_1.Width
+        ZIndex: =2
+
+        vconListaPrecios_1 As groupContainer.verticalAutoLayoutContainer:
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            ZIndex: =2
+
+            "glyPrecios_1 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DelayItemLoading: =true
+                Height: =Parent.Height
+                Items: =Search(colItemsSeleccionados, inpBuscar_1.Text, "titulo")
+                Layout: =Layout.Vertical
+                LayoutMinHeight: =287
+                LayoutMinWidth: =320
+                LoadingSpinner: =LoadingSpinner.Data
+                ShowScrollbar: =false
+                TemplatePadding: =10
+                TemplateSize: =80
+                Width: =Parent.Width
+                X: =40
+                Y: =140
+                ZIndex: =1
+
+                glyConListItem_1 As groupContainer.manualLayoutContainer:
+                    Height: =glyPrecios_1.TemplateHeight
+                    Width: =glyPrecios_1.TemplateWidth *0.98
+                    X: =(Parent.TemplateWidth - Self.Width) / 2
+                    ZIndex: =6
+
+                    conAddIcon_1 As groupContainer.manualLayoutContainer:
+                        BorderColor: =RGBA(166, 166, 166, 1)
+                        BorderThickness: =2
+                        DropShadow: =DropShadow.None
+                        Height: =Self.Width
+                        RadiusBottomLeft: =100
+                        RadiusBottomRight: =100
+                        RadiusTopLeft: =100
+                        RadiusTopRight: =100
+                        Width: =60
+                        X: =Parent.Width - Self.Width - 20
+                        Y: =(Parent.Height - Self.Height) / 2
+                        ZIndex: =1
+
+                        iconAdd_1 As icon.ChevronRight:
+                            AccessibleLabel: =Self.Tooltip
+                            BorderStyle: =BorderStyle.None
+                            BorderThickness: =2
+                            Color: =RGBA(166, 166, 166, 1)
+                            Height: =Parent.Height
+                            Icon: =Icon.Add
+                            OnSelect: |-
+                                =Set(gblItemSeleccionado, ThisItem);
+                                Collect(colItemsSeleccionados, gblItemSeleccionado);
+                            PaddingBottom: =15
+                            PaddingLeft: =15
+                            PaddingRight: =15
+                            PaddingTop: =15
+                            Tooltip: ="View item details"
+                            Width: =Parent.Width
+                            ZIndex: =1
+
+                    lblPrecio_1 As label:
+                        Font: =Font.Lato
+                        FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                        Height: =22
+                        PaddingBottom: =0
+                        PaddingLeft: =0
+                        PaddingRight: =0
+                        PaddingTop: =0
+                        Size: =16
+                        Text: |-
+                            =Text(Value(ThisItem.precio), "$ #,###")
+                        VerticalAlign: =VerticalAlign.Top
+                        Width: =Parent.Width * 0.2
+                        X: =Parent.Width / 2
+                        Y: =(Parent.Height - Self.Height) / 2
+                        ZIndex: =3
+
+                    lblTitulo_1 As label:
+                        Font: =Font.Lato
+                        FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                        Height: =26
+                        PaddingBottom: =0
+                        PaddingLeft: =0
+                        PaddingRight: =0
+                        PaddingTop: =0
+                        Size: =16
+                        Text: =Proper(ThisItem.titulo)
+                        VerticalAlign: =VerticalAlign.Top
+                        Width: =Parent.Width * 0.4
+                        X: =48
+                        Y: =(Parent.Height - Self.Height) / 2
+                        ZIndex: =4
+
+    conBuscar_1 As groupContainer.manualLayoutContainer:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderThickness: =2
+        DropShadow: =DropShadow.None
+        Height: =70
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =1326
+        X: =13
+        Y: =14
+        ZIndex: =4
+
+        iconBuscar_1 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(166, 166, 166, 1)
+            Height: =Parent.Height
+            Icon: =Icon.Search
+            PaddingBottom: =15
+            PaddingLeft: =15
+            PaddingRight: =15
+            PaddingTop: =15
+            Tooltip: ="View item details"
+            Width: =Parent.Height
+            X: =1253
+            ZIndex: =1
+
+        inpBuscar_1 As text:
+            BorderStyle: =BorderStyle.None
+            Default: =""
+            Font: =Font.Lato
+            Height: =70
+            PaddingLeft: =30
+            Size: =20
+            Width: =1253
+            ZIndex: =2
+

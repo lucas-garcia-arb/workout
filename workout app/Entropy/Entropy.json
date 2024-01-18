@@ -4,24 +4,37 @@
   "ControlUniqueIds": {
     "App": 1,
     "conAddIcon": 14,
+    "conAddIcon_1": 27,
     "conBuscar": 6,
+    "conBuscar_1": 19,
     "conListaPrecios": 9,
+    "conListaPrecios_1": 22,
     "galleryTemplate1": 12,
+    "galleryTemplate1_1": 25,
     "glyConListItem": 13,
+    "glyConListItem_1": 26,
     "glyPrecios": 11,
+    "glyPrecios_1": 24,
     "Host": 3,
     "iconAdd": 15,
+    "iconAdd_1": 28,
     "iconBuscar": 8,
+    "iconBuscar_1": 21,
     "inpBuscar": 7,
+    "inpBuscar_1": 20,
     "lblPrecio": 17,
+    "lblPrecio_1": 30,
     "lblTitulo": 16,
+    "lblTitulo_1": 29,
     "ListaPreciosScreen": 5,
+    "ListaPreciosScreen_1": 18,
     "PowerBIIntegration": 4,
-    "vconListaPrecios": 10
+    "vconListaPrecios": 10,
+    "vconListaPrecios_1": 23
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/18/2024 18:34:07",
+  "HeaderLastSavedDateTimeUTC": "01/18/2024 18:34:32",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c262ae22-db6a-4d35-82ae-954b565d953c": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/shared-excelonlinebu-dd62666d-981d-4321-a9d0-0fb604784bc9\"",
@@ -52,18 +65,30 @@
   "OverridablePropertiesEntry": {
     "App": {},
     "conAddIcon": {},
+    "conAddIcon_1": {},
     "conBuscar": {},
+    "conBuscar_1": {},
     "conListaPrecios": {},
+    "conListaPrecios_1": {},
     "galleryTemplate1": {},
+    "galleryTemplate1_1": {},
     "glyConListItem": {},
+    "glyConListItem_1": {},
     "glyPrecios": {},
+    "glyPrecios_1": {},
     "Host": {},
     "iconAdd": {},
+    "iconAdd_1": {},
     "iconBuscar": {},
+    "iconBuscar_1": {},
     "inpBuscar": {},
+    "inpBuscar_1": {},
     "lblPrecio": {},
+    "lblPrecio_1": {},
     "lblTitulo": {},
+    "lblTitulo_1": {},
     "ListaPreciosScreen": {},
+    "ListaPreciosScreen_1": {},
     "PowerBIIntegration": {
       "Data": {
         "Type": {
@@ -75,7 +100,8 @@
         "Version": "1.336"
       }
     },
-    "vconListaPrecios": {}
+    "vconListaPrecios": {},
+    "vconListaPrecios_1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {
     "PowerBIIntegration": {}
@@ -84,20 +110,33 @@
   "PublishOrderIndices": {
     "App": 0,
     "conAddIcon": 8,
+    "conAddIcon_1": 8,
     "conBuscar": 0,
+    "conBuscar_1": 0,
     "conListaPrecios": 3,
+    "conListaPrecios_1": 3,
     "galleryTemplate1": 6,
+    "galleryTemplate1_1": 6,
     "glyConListItem": 7,
+    "glyConListItem_1": 7,
     "glyPrecios": 5,
+    "glyPrecios_1": 5,
     "Host": 0,
     "iconAdd": 9,
+    "iconAdd_1": 9,
     "iconBuscar": 2,
+    "iconBuscar_1": 2,
     "inpBuscar": 1,
+    "inpBuscar_1": 1,
     "lblPrecio": 11,
+    "lblPrecio_1": 11,
     "lblTitulo": 10,
+    "lblTitulo_1": 10,
     "ListaPreciosScreen": 0,
+    "ListaPreciosScreen_1": 0,
     "PowerBIIntegration": 0,
-    "vconListaPrecios": 4
+    "vconListaPrecios": 4,
+    "vconListaPrecios_1": 4
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0
@@ -107,14 +146,14 @@
   "VolatileProperties": {
     "AnalysisLoadTime": 0.1596291,
     "ControlCount": {
-      "gallery": 1,
-      "galleryTemplate": 1,
-      "groupContainer": 5,
+      "gallery": 2,
+      "galleryTemplate": 2,
+      "groupContainer": 10,
       "hostControl": 1,
-      "icon": 2,
-      "label": 2,
-      "screen": 1,
-      "text": 1
+      "icon": 4,
+      "label": 4,
+      "screen": 2,
+      "text": 2
     },
     "DeserializationLoadTime": 1.3715521
   },

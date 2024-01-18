@@ -132,6 +132,7 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "ListaPreciosScreen"
+    "ListaPreciosScreen",
+    "ListaPreciosScreen_1"
   ]
 }
