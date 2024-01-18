@@ -65,7 +65,7 @@ ListaItemsSeleccionadosScreen As screen:
                             Height: =Parent.Height
                             Icon: =Icon.Trash
                             OnSelect: |-
-                                =Set(gblTotal, gblTotal - Value(ThisItem.precio);
+                                =Set(gblTotal, gblTotal - Value(ThisItem.precio));
                                 Remove(colItemsSeleccionados, ThisItem);
                             PaddingBottom: =15
                             PaddingLeft: =15
