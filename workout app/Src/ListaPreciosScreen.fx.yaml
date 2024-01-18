@@ -64,7 +64,7 @@ ListaPreciosScreen As screen:
                             Icon: =Icon.Add
                             OnSelect: |-
                                 =Set(gblItemSeleccionado, ThisItem);
-                                Set(gblTotal, gblTotal + Value(ThisItem.precio))
+                                Set(gblTotal, gblTotal + Value(ThisItem.precio));
                                 Collect(colItemsSeleccionados, gblItemSeleccionado);
                             PaddingBottom: =15
                             PaddingLeft: =15

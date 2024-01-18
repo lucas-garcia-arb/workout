@@ -63,7 +63,9 @@ ListaItemsSeleccionadosScreen As screen:
                             Color: =RGBA(255, 0, 0, 1)
                             Height: =Parent.Height
                             Icon: =Icon.Trash
-                            OnSelect: =Remove(colItemsSeleccionados, ThisItem);
+                            OnSelect: |-
+                                =Set(gblTotal, 0);
+                                Remove(colItemsSeleccionados, ThisItem);
                             PaddingBottom: =15
                             PaddingLeft: =15
                             PaddingRight: =15
@@ -117,7 +119,8 @@ ListaItemsSeleccionadosScreen As screen:
                     Font: =Font.'Lato Black'
                     Height: =70
                     Size: =20
-                    Text: ="Total"
+                    Text: |-
+                        ="Total " & Text(Value(gblTotal), "$ #,###")
                     Width: =1366
                     ZIndex: =1
 
