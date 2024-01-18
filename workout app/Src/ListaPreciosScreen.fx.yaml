@@ -62,6 +62,9 @@ ListaPreciosScreen As screen:
                             Color: =RGBA(166, 166, 166, 1)
                             Height: =Parent.Height
                             Icon: =Icon.Add
+                            OnSelect: |-
+                                =Set(gblItemSeleccionado, ThisItem);
+                                Collect(colItemsSeleccionados, gblItemSeleccionado);
                             PaddingBottom: =15
                             PaddingLeft: =15
                             PaddingRight: =15
@@ -80,7 +83,7 @@ ListaPreciosScreen As screen:
                         PaddingTop: =0
                         Size: =16
                         Text: |-
-                            =Text(ThisItem.precio, "$ #,###")
+                            =Text(Value(ThisItem.precio), "$ #,###")
                         VerticalAlign: =VerticalAlign.Top
                         Width: =Parent.Width * 0.2
                         X: =Parent.Width / 2

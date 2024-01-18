@@ -21,7 +21,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/18/2024 18:31:25",
+  "HeaderLastSavedDateTimeUTC": "01/18/2024 18:34:07",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c262ae22-db6a-4d35-82ae-954b565d953c": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/shared-excelonlinebu-dd62666d-981d-4321-a9d0-0fb604784bc9\"",
@@ -34,6 +34,7 @@
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
+    "colItemsSeleccionados": 3,
     "csv_workout_files": 0,
     "CustomGallerySample": 2,
     "listaPrecios": 1
@@ -104,7 +105,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1644501,
+    "AnalysisLoadTime": 0.1596291,
     "ControlCount": {
       "gallery": 1,
       "galleryTemplate": 1,
@@ -115,7 +116,7 @@
       "screen": 1,
       "text": 1
     },
-    "DeserializationLoadTime": 1.326904
+    "DeserializationLoadTime": 1.3715521
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
