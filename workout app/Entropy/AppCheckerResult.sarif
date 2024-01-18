@@ -74,19 +74,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBuscarLISS.inpBuscarItems.AccessibleLabel"
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBuscar_1.inpBuscar_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBuscarLISS.inpBuscarItems.AccessibleLabel",
+                  "fullyQualifiedName": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBuscar_1.inpBuscar_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ListaItemsSeleccionadosScreen",
-                "type": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBuscarLISS.inpBuscarItems"
+                "type": "ListaItemsSeleccionadosScreen.conListaItems.conHeaderLISS.conBuscar_1.inpBuscar_1"
               }
             }
           ],

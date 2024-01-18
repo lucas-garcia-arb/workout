@@ -48,40 +48,46 @@ ListaItemsSeleccionadosScreen As screen:
                     Y: =(Parent.Height - Self.Height) / 2
                     ZIndex: =1
 
-            conBuscarLISS As groupContainer.manualLayoutContainer:
-                AlignInContainer: =AlignInContainer.SetByContainer
-                BorderColor: =RGBA(166, 166, 166, 1)
-                BorderThickness: =2
-                DropShadow: =DropShadow.None
-                Height: =70
-                LayoutMinHeight: =0
-                LayoutMinWidth: =0
-                RadiusBottomLeft: =100
-                RadiusBottomRight: =100
-                RadiusTopLeft: =100
-                RadiusTopRight: =100
-                Width: =1326
-                X: =13
-                Y: =14
+            conBuscar_1 As groupContainer.horizontalAutoLayoutContainer:
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+                LayoutMinHeight: =10
+                LayoutMinWidth: =10
+                LayoutMode: =LayoutMode.Auto
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
                 ZIndex: =2
 
-                inpBuscarItems As text:
+                inpBuscar_1 As text:
                     BorderStyle: =BorderStyle.None
                     Default: =""
+                    FillPortions: =1
                     Font: =Font.Lato
                     Height: =68
+                    LayoutMinWidth: =200
                     PaddingLeft: =30
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
                     Size: =20
-                    Width: =1178
+                    Width: =940
                     ZIndex: =1
 
-                conCarrito_2 As groupContainer.manualLayoutContainer:
+                conBuscarLogo_1 As groupContainer.manualLayoutContainer:
+                    AlignInContainer: =AlignInContainer.SetByContainer
+                    DropShadow: =DropShadow.None
+                    FillPortions: =0
                     Height: =68
-                    Width: =80
-                    X: =1178
+                    LayoutMinHeight: =100
+                    LayoutMinWidth: =10
+                    Width: =70
+                    X: =940
                     ZIndex: =2
 
-                    iconBuscar_1 As image:
+                    imgBuscarLogo_1 As image:
                         Height: =Self.Width
                         Image: |-
                             ="data:image/svg+xml;utf8, "& EncodeUrl(
@@ -90,7 +96,7 @@ ListaItemsSeleccionadosScreen As screen:
                                 "#A6A6A6"
                                 )
                             )
-                        Width: =Parent.Height * 0.7
+                        Width: =Parent.Height * 0.6
                         X: =(Parent.Width - Self.Width) / 2
                         Y: =(Parent.Height - Self.Height) / 2
                         ZIndex: =2
@@ -102,7 +108,7 @@ ListaItemsSeleccionadosScreen As screen:
                 LayoutMinHeight: =0
                 LayoutMinWidth: =250
                 Width: =Self.Height
-                ZIndex: =4
+                ZIndex: =3
 
                 imgList_3 As image:
                     Height: =Parent.Height*0.98
@@ -150,7 +156,7 @@ ListaItemsSeleccionadosScreen As screen:
                     AlignInContainer: =AlignInContainer.SetByContainer
                     DelayItemLoading: =true
                     Height: =Parent.Height
-                    Items: =Search(colItemsSeleccionados, inpBuscarItems.Text, "titulo")
+                    Items: =Search(colItemsSeleccionados, inpBuscar_1.Text, "titulo")
                     Layout: =Layout.Vertical
                     LayoutMinHeight: =287
                     LayoutMinWidth: =320
