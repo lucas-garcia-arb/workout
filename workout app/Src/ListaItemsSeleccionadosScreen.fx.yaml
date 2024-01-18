@@ -4,6 +4,7 @@ ListaItemsSeleccionadosScreen As screen:
         DropShadow: =DropShadow.None
         Height: =660
         LayoutAlignItems: =LayoutAlignItems.Center
+        LayoutDirection: =LayoutDirection.Vertical
         LayoutJustifyContent: =LayoutJustifyContent.Center
         LayoutMode: =LayoutMode.Auto
         Width: =ListaItemsSeleccionadosScreen.Width
@@ -107,22 +108,23 @@ ListaItemsSeleccionadosScreen As screen:
                         Y: =(Parent.Height - Self.Height) / 2
                         ZIndex: =4
 
-            Container1 As groupContainer.manualLayoutContainer:
-                FillPortions: =0
-                Height: =70
-                LayoutMinHeight: =100
-                LayoutMinWidth: =250
-                ZIndex: =2
+        conTotal As groupContainer.manualLayoutContainer:
+            FillPortions: =0
+            Height: =70
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            Width: =Parent.Width
+            ZIndex: =3
 
-                Label1 As label:
-                    Align: =Align.Center
-                    Font: =Font.'Lato Black'
-                    Height: =70
-                    Size: =20
-                    Text: |-
-                        ="Total " & Text(Value(gblTotal), "$ #,###")
-                    Width: =1366
-                    ZIndex: =1
+            lblTotal As label:
+                Align: =Align.Center
+                Font: =Font.'Lato Black'
+                Height: =70
+                Size: =20
+                Text: |-
+                    ="Total " & Text(Value(gblTotal), "$ #,###")
+                Width: =Parent.Width
+                ZIndex: =1
 
     Container2_1 As groupContainer.horizontalAutoLayoutContainer:
         Height: =108
