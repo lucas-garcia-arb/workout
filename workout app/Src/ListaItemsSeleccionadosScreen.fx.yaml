@@ -25,9 +25,10 @@ ListaItemsSeleccionadosScreen As screen:
             ZIndex: =1
 
             conBack As groupContainer.manualLayoutContainer:
-                AlignInContainer: =AlignInContainer.SetByContainer
+                AlignInContainer: =AlignInContainer.Center
                 DropShadow: =DropShadow.None
                 FillPortions: =0
+                Height: =60
                 LayoutMinHeight: =0
                 LayoutMinWidth: =250
                 Width: =Self.Height
@@ -49,6 +50,8 @@ ListaItemsSeleccionadosScreen As screen:
                     ZIndex: =1
 
             conBuscar_1 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.Center
+                Height: =60
                 LayoutAlignItems: =LayoutAlignItems.Center
                 LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
                 LayoutMinHeight: =10
@@ -80,10 +83,10 @@ ListaItemsSeleccionadosScreen As screen:
                     AlignInContainer: =AlignInContainer.SetByContainer
                     DropShadow: =DropShadow.None
                     FillPortions: =0
-                    Height: =68
+                    Height: =60
                     LayoutMinHeight: =100
                     LayoutMinWidth: =10
-                    Width: =70
+                    Width: =60
                     X: =940
                     ZIndex: =2
 
@@ -102,9 +105,10 @@ ListaItemsSeleccionadosScreen As screen:
                         ZIndex: =2
 
             conCarrito_5 As groupContainer.manualLayoutContainer:
-                AlignInContainer: =AlignInContainer.SetByContainer
+                AlignInContainer: =AlignInContainer.Center
                 DropShadow: =DropShadow.None
                 FillPortions: =0
+                Height: =60
                 LayoutMinHeight: =0
                 LayoutMinWidth: =250
                 Width: =Self.Height
@@ -236,7 +240,7 @@ ListaItemsSeleccionadosScreen As screen:
                                 RadiusBottomRight: =100
                                 RadiusTopLeft: =100
                                 RadiusTopRight: =100
-                                Width: =70
+                                Width: =50
                                 X: =Parent.Width - Self.Width - 20
                                 Y: =(Parent.Height - Self.Height) / 2
                                 ZIndex: =4
@@ -247,7 +251,7 @@ ListaItemsSeleccionadosScreen As screen:
                                     BorderStyle: =BorderStyle.None
                                     BorderThickness: =2
                                     Color: =RGBA(255, 0, 0, 1)
-                                    Height: =Parent.Height
+                                    Height: =50
                                     Icon: =Icon.Trash
                                     OnSelect: |-
                                         =Set(gblTotal, gblTotal - Value(ThisItem.precio));
@@ -257,7 +261,7 @@ ListaItemsSeleccionadosScreen As screen:
                                     PaddingRight: =15
                                     PaddingTop: =15
                                     Tooltip: ="View item details"
-                                    Width: =Parent.Width
+                                    Width: =50
                                     ZIndex: =1
 
             conTotal As groupContainer.manualLayoutContainer:
