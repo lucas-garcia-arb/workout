@@ -10,16 +10,16 @@ ListaPreciosScreen As screen:
         conHeaderLPS As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
             FillPortions: =0
-            Height: =108
-            LayoutAlignItems: =LayoutAlignItems.Stretch
+            Height: =80
+            LayoutAlignItems: =LayoutAlignItems.Center
             LayoutGap: =10
             LayoutMinHeight: =100
             LayoutMinWidth: =250
             LayoutMode: =LayoutMode.Auto
-            PaddingBottom: =20
-            PaddingLeft: =20
-            PaddingRight: =20
-            PaddingTop: =20
+            PaddingBottom: =12
+            PaddingLeft: =12
+            PaddingRight: =12
+            PaddingTop: =12
             Width: =Parent.Width
             ZIndex: =1
 
@@ -27,6 +27,7 @@ ListaPreciosScreen As screen:
                 AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.None
                 FillPortions: =0
+                Height: =60
                 LayoutMinHeight: =0
                 LayoutMinWidth: =250
                 Width: =Self.Height
@@ -41,6 +42,8 @@ ListaPreciosScreen As screen:
                     ZIndex: =1
 
             conBuscar As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                Height: =60
                 LayoutAlignItems: =LayoutAlignItems.Center
                 LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
                 LayoutMinHeight: =10
@@ -57,14 +60,14 @@ ListaPreciosScreen As screen:
                     Default: =""
                     FillPortions: =1
                     Font: =Font.Lato
-                    Height: =68
+                    Height: =60
                     LayoutMinWidth: =200
                     PaddingLeft: =30
                     RadiusBottomLeft: =0
                     RadiusBottomRight: =0
                     RadiusTopLeft: =0
                     RadiusTopRight: =0
-                    Size: =20
+                    Size: =If(App.Width > 800, 20, 14)
                     Width: =940
                     ZIndex: =1
 
@@ -72,7 +75,7 @@ ListaPreciosScreen As screen:
                     AlignInContainer: =AlignInContainer.SetByContainer
                     DropShadow: =DropShadow.None
                     FillPortions: =0
-                    Height: =68
+                    Height: =60
                     LayoutMinHeight: =100
                     LayoutMinWidth: =10
                     Width: =70
@@ -97,6 +100,7 @@ ListaPreciosScreen As screen:
                 AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.None
                 FillPortions: =0
+                Height: =60
                 LayoutMinHeight: =0
                 LayoutMinWidth: =250
                 Width: =Self.Height
@@ -215,14 +219,14 @@ ListaPreciosScreen As screen:
                                 BorderThickness: =2
                                 DropShadow: =DropShadow.None
                                 FillPortions: =0
-                                Height: =70
+                                Height: =50
                                 LayoutMinHeight: =10
                                 LayoutMinWidth: =250
                                 RadiusBottomLeft: =100
                                 RadiusBottomRight: =100
                                 RadiusTopLeft: =100
                                 RadiusTopRight: =100
-                                Width: =70
+                                Width: =50
                                 X: =Parent.Width - Self.Width - 20
                                 Y: =(Parent.Height - Self.Height) / 2
                                 ZIndex: =3
@@ -263,7 +267,7 @@ ListaPreciosScreen As screen:
                 Align: =Align.Center
                 Font: =Font.'Lato Black'
                 Height: =70
-                Size: =If(App.Width > 1000, 20, 14)
+                Size: =If(App.Width > 1000, 20, 12)
                 Text: |-
                     ="Total: " & Text(Value(gblTotal), "$ #,###")
                 Width: =Parent.Width * 0.5
@@ -274,7 +278,7 @@ ListaPreciosScreen As screen:
                 Align: =Align.Center
                 Font: =Font.'Lato Black'
                 Height: =70
-                Size: =If(App.Width > 1000, 20, 14)
+                Size: =If(App.Width > 1000, 20, 12)
                 Text: |-
                     ="Items: " & CountRows(workout_lista_equipos)
                 Width: =Parent.Width * 0.5
