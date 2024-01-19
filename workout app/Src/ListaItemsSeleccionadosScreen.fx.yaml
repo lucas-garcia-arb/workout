@@ -1,7 +1,7 @@
 ListaItemsSeleccionadosScreen As screen:
 
     conListaItems As groupContainer.verticalAutoLayoutContainer:
-        Height: =App.Height
+        Height: =Parent.Height
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
         Width: =Parent.Width
