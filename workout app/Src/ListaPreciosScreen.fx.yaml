@@ -1,7 +1,7 @@
 ListaPreciosScreen As screen:
 
     conListaScreen As groupContainer.verticalAutoLayoutContainer:
-        Height: =App.Height
+        Height: =Parent.Height
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
         Width: =Parent.Width
