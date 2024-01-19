@@ -24,7 +24,7 @@
                 },
                 "region": {
                   "charLength": 34,
-                  "charOffset": 1990,
+                  "charOffset": 1991,
                   "snippet": {
                     "text": "Sum(workout_lista_equipos, precio)"
                   }

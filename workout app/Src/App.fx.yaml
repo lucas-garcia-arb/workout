@@ -24,6 +24,7 @@ App As appinfo:
                 </svg>"
             }
         );
+        
         Set(gblTotal, 0);
         Set(gblTotal, Sum(workout_lista_equipos, precio));
     SizeBreakpoints: =[600, 800, 1200, 1400]
